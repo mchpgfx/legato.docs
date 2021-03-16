@@ -20,7 +20,7 @@ lang: en-US
 timezone: America/Phoenix
 
 description: Harmony 3 Graphics package
-url: "https://microchip-mplab-harmony.github.io"
+url: "https://mchpgfx.github.io"
 baseurl: "/gfx"
 remote_theme: "Microchip-MPLAB-Harmony/just-the-docs@mchp-harmony"
 
