@@ -1,9 +1,9 @@
 ﻿---
-title: Harmony 3 Graphics Package
+title: Harmony 3 Graphics Documentation Package
 nav_order: 1
 ---
 
-# ![Microchip Technology](./docs/legato/images/mhgs.png) MPLAB® Harmony 3 Graphics Support Package
+# ![Microchip Technology](./docs/legato/images/mhgs.png) MPLAB® Harmony 3 Graphics Documentation Package
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
@@ -13,16 +13,17 @@ and microprocessor devices.  Refer to the following links for more information:
  - [Microchip MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide)
  - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
  - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
+ - [MPLAB® Discover](https://mplab-discover.microchip.com/v1/itemtype/com.microchip.ide.project?s0=Legato)
 
-This repository contains the MPLAB® Harmony Graphics Suite.  The
+This repository contains the MPLAB® Harmony Graphics Suite Documentation.  The
 suite supports a free fast to market, graphics software development environment for Microchip MPLAB® 32-bit SAM and PIC® microprocessor devices.  Refer to
 the following graphics links for release notes, home page, training materials, framework and application help.
-Graphics application examples can be found at various [device-family specific repositories](./apps/readme.md).
- - [Release Notes](./release_notes.md)
- - [MPLAB® Harmony License](./mplab_harmony_license.md)
+Graphics application examples can be found at various [device-family specific repositories](https://microchip-mplab-harmony.github.io/gfx/apps/) and at [MPLAB® Discover](https://mplab-discover.microchip.com/v1/itemtype/com.microchip.ide.project?s0=Legato)
+ - [Release Notes](https://microchip-mplab-harmony.github.io/gfx/release_notes.html)
+ - [MPLAB® Harmony License](https://microchip-mplab-harmony.github.io/gfx/mplab_harmony_license.html)
  - [MPLAB® Harmony 3 Graphics User Guides Wiki](https://github.com/mchpgfx/legato.docs/wiki)
- - [MPLAB® Harmony 3 Graphics API Help](./docs/legato/html/index.html)
- - [MPLAB® Harmony 3 Graphics Applications](./apps/readme.md)
+ - [MPLAB® Harmony 3 Graphics API Help](./html/index.html)
+ - [MPLAB® Harmony 3 Graphics Applications](https://microchip-mplab-harmony.github.io/gfx/apps/)
  - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
 
 # Features
@@ -52,41 +53,8 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 | Folder     | Description                                  |
 |------------|----------------------------------------------|
-| Legato   | Legato graphics library, drivers, applications, and tools. |
-| Blank    | Blank graphics interface for third-party graphics libraries |
+| html   | Legato API Reference Guide |
 
-## Legato Graphics
-
-The performance improved graphics for MPLAB® Harmony Graphics Suite. Supports Microchip PIC32 and SAM microcontrollers.
-
-| Category | Item | Description | Release Type |
-| --- | --- | ---- |---- |
-| drivers|  glcd | Driver for the GLCD display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   2dgpu | Driver for the 2DGPU graphics processor |![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   lcc |  Driver for the LCC software display controller| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   gfx2d | Driver for the GFX2D graphics processor| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   lcdc | Driver for the LCDC display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   slcd | Driver for the Segmented LCD display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   external controller |  Driver generator for external display controllers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   ssd1963 | Driver for the ssd1963 display controller | ![app-beta](https://img.shields.io/badge/driver-deprecated-red?style=plastic) |
-|      |   ili9488  | Display Driver for the ili9488 controller | ![app-beta](https://img.shields.io/badge/driver-deprecated-red?style=plastic) |
-|      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-| library    | legato | Graphics library | ![app-beta](https://img.shields.io/badge/library-beta-orange?style=plastic) |
-| designer | legato MHGC |Harmony graphics composer for Legato| ![app-beta](https://img.shields.io/badge/tool-beta-orange?style=plastic) |
-
-***
-## Blank Library Interface
-***
-**Blank Library Interface** - the library interface which easily allows a third-party graphics library direct access to the display framebuffer.  Blank library applications are available at various [device-family specific repositories](./apps/readme.md).
-## Aria Graphics
-
-***
-The legacy graphics facilities for MPLAB® Harmony Graphics Suite. Supports Microchip PIC32 and SAM microcontrollers.
-
-As of Graphics release v3.8.0, Aria Graphics has been deprecated and removed from this repository.  A snapshot of all previously published applications, tools, middleware and drivers related to Harmony 3 Aria Graphics are available at this [archive repository](https://github.com/Microchip-MPLAB-Harmony/gfx_aria). 
 
 ____
 

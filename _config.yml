@@ -21,7 +21,7 @@ timezone: America/Phoenix
 
 description: Harmony 3 Graphics package
 url: "https://mchpgfx.github.io"
-baseurl: "/gfx"
+baseurl: "/legato.docs"
 remote_theme: "Microchip-MPLAB-Harmony/just-the-docs@mchp-harmony"
 
 # Build settings
