@@ -22,8 +22,8 @@ Graphics application examples can be found at various [device-family specific re
  - [Release Notes](https://microchip-mplab-harmony.github.io/gfx/release_notes.html)
  - [MPLAB® Harmony License](https://microchip-mplab-harmony.github.io/gfx/mplab_harmony_license.html)
  - [MPLAB® Harmony 3 Graphics User Guides Wiki](https://github.com/mchpgfx/legato.docs/wiki)
- - [MPLAB® Harmony 3 Graphics API Help](https://microchip-mplab-harmony.github.io/gfx/html/index.html)
- - [MPLAB® Harmony 3 Graphics Applications](https://microchip-mplab-harmony.github.io/gfx/apps/)
+ - [MPLAB® Harmony 3 Graphics API Help](https://mchpgfx.github.io/legato.docs/html/index.html)
+ - [MPLAB® Harmony 3 Graphics Applications](https://microchip-mplab-harmony.github.io/gfx/apps/readme.html)
  - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/channel/UCwGbrIuty-pHCyjuVRAyP5Q)
 
 # Features
