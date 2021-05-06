@@ -5,9 +5,9 @@ var legato__stringtable_8h =
     [ "LE_STRING_ARRAY_SIZE", "legato__stringtable_8h.html#aaa1c792e513b1400939e5be49f08efa3", null ],
     [ "LE_STRING_ENTRY_SIZE", "legato__stringtable_8h.html#a3c384c7d2e3dfdd59c2ce892faa5a235", null ],
     [ "LE_STRING_MAX_CHAR_WIDTH", "legato__stringtable_8h.html#a59c048f094ff3c74ac80dbceeddfb17a", null ],
-    [ "leStringEncodingMode", "legato__stringtable_8h.html#a0e7d650aa553908158446c4666a60671", null ],
-    [ "leStringInfo", "legato__stringtable_8h.html#ac26d0a422875b97d53f3608921d27c85", null ],
-    [ "leStringTable", "legato__stringtable_8h.html#a20ea7e40ff736f903cfceb8e1c17d71b", null ],
+    [ "leStringEncodingMode", "legato__stringtable_8h.html#abc62c143cd83467cb0d8b69fb8324e08", null ],
+    [ "leStringInfo", "legato__stringtable_8h.html#a7c9879d51d1507d25bc5f62008cb4153", null ],
+    [ "leStringTable", "legato__stringtable_8h.html#a3ab662b8690e059aec4e4afe2822ed66", null ],
     [ "leStringEncodingMode", "legato__stringtable_8h.html#ac6a8cc998c4f85760fc144fa1cdb983e", [
       [ "LE_STRING_ENCODING_ASCII", "legato__stringtable_8h.html#ac6a8cc998c4f85760fc144fa1cdb983ea23f834ccb0c88700f329803da3d71409", null ],
       [ "LE_STRING_ENCODING_UTF8", "legato__stringtable_8h.html#ac6a8cc998c4f85760fc144fa1cdb983ea03a910a145a06a8a775c103d2d32f216", null ],

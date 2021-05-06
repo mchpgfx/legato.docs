@@ -2,8 +2,8 @@ var legato__list_8h =
 [
     [ "leListNode", "structleListNode.html", "structleListNode" ],
     [ "leList", "structleList.html", "structleList" ],
-    [ "leList", "legato__list_8h.html#a679fcccb971a4e62c693477c92990bd7", null ],
-    [ "leListNode", "legato__list_8h.html#a8f3f5b7f0b33b9e543c16c94fc598e48", null ],
+    [ "leList", "legato__list_8h.html#a1a5df3113674d412e632c3e456502a9f", null ],
+    [ "leListNode", "legato__list_8h.html#ad807b4700f08735ec23aaf862e63a198", null ],
     [ "leList_Assign", "legato__list_8h.html#a2836563911e8bbfba5913971766ee3ef", null ],
     [ "leList_Clear", "legato__list_8h.html#ad870505edc19b8ce4ac0a89c1417e658", null ],
     [ "leList_Copy", "legato__list_8h.html#ad6007296b206300aa7f0778145f4cc88", null ],

@@ -4,7 +4,7 @@ var legato__editwidget_8h =
     [ "leEditWidget", "structleEditWidget.html", "structleEditWidget" ],
     [ "LE_EDITWIDGET_VTABLE", "legato__editwidget_8h.html#aa9e991b5036b547c33be9b05cbe85b40", null ],
     [ "leEditWidget", "legato__editwidget_8h.html#a9fa016137524e78c4860ac06113c4d2b", null ],
-    [ "leEditWidgetVTable", "legato__editwidget_8h.html#a64705f35b5dadd2625f0424311cb6653", null ],
+    [ "leEditWidgetVTable", "legato__editwidget_8h.html#a382a218d7b48aced9043fdf911a1a616", null ],
     [ "_leEditWidget_Accept", "legato__editwidget_8h.html#a02976b74bbc232091c81411935a4c5d3", null ],
     [ "_leEditWidget_Append", "legato__editwidget_8h.html#a975adb23963e844ed15646854b0d8ca2", null ],
     [ "_leEditWidget_Backspace", "legato__editwidget_8h.html#a5c3be8af5bcc1a3b599c7f88f2fa540e", null ],

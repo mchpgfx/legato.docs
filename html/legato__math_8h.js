@@ -2,7 +2,7 @@ var legato__math_8h =
 [
     [ "leArcQuadrantQuery", "structleArcQuadrantQuery.html", "structleArcQuadrantQuery" ],
     [ "leResolvedAngleRanges", "structleResolvedAngleRanges.html", "structleResolvedAngleRanges" ],
-    [ "leResolvedAngleRanges", "legato__math_8h.html#a93d6994edc652f65aaaecabab9e7f51a", null ],
+    [ "leResolvedAngleRanges", "legato__math_8h.html#a0d58a03929bb18f1f57b5c2c13d1524a", null ],
     [ "LE_QUADRANT", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722", [
       [ "LE_Q1", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722ad65b1455871ab1cd9d0655696d927c01", null ],
       [ "LE_Q2", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722a969983120a0e3978c1006ada393cffda", null ],

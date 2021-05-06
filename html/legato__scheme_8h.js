@@ -4,9 +4,9 @@ var legato__scheme_8h =
     [ "leScheme", "structleScheme.html", "structleScheme" ],
     [ "LE_SCHEME_COLOR_COUNT", "legato__scheme_8h.html#a665b5b6f62b21cf9508e21389eecb37f", null ],
     [ "LE_SCHEME_COLOR_MODE_COUNT", "legato__scheme_8h.html#a9176dbcb08aabfd6c31cad4df2af7b48", null ],
-    [ "leScheme", "legato__scheme_8h.html#a7dd6045cb50cd8e7f3cb4d36bc70c47b", null ],
-    [ "leSchemeColor", "legato__scheme_8h.html#af03fa9d359fc39fc4ebba9bc2633af9f", null ],
-    [ "leSchemeColorTable", "legato__scheme_8h.html#abb9d5590adaa616705a781fcc9317f6c", null ],
+    [ "leScheme", "legato__scheme_8h.html#aa347b5b1f4b003347d2a89e6a35bddee", null ],
+    [ "leSchemeColor", "legato__scheme_8h.html#a73d231691fa8f44c6915a0aac251c708", null ],
+    [ "leSchemeColorTable", "legato__scheme_8h.html#ae567a402c4aab2197bb290830b7da6ff", null ],
     [ "leSchemeColor", "legato__scheme_8h.html#aa8cbb2618ceccbe47439642365d28365", [
       [ "LE_SCHM_BASE", "legato__scheme_8h.html#aa8cbb2618ceccbe47439642365d28365af197b9902c364e9db278b06abd68b7a8", null ],
       [ "LE_SCHM_HIGHLIGHT", "legato__scheme_8h.html#aa8cbb2618ceccbe47439642365d28365ab541503d3ce51a57e2870733d09a0885", null ],

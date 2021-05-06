@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['palettedef_652',['PaletteDef',['../classassetheader_1_1PaletteDef.html',1,'assetheader']]],
-  ['plib_5fglcd_2eh_653',['plib_glcd.h',['../plib__glcd_8h.html',1,'']]],
-  ['precbuserdata_654',['preCBUserData',['../structleString.html#a592225069217dcd4250d80da662f9027',1,'leString']]],
-  ['preinvalidate_655',['preinvalidate',['../legato__string_8h.html#a5c7e8039618a373a1f1ebefc38c8f670',1,'legato_string.h']]],
-  ['preinvcallback_656',['preInvCallback',['../structleString.html#a6420a3227871988b0bde9791b6065235',1,'leString']]]
+  ['radius',['radius',['../structleArcWidget.html#a717462214d2d8f1d768bccfb01a63d08',1,'leArcWidget']]],
+  ['rects',['rects',['../structleRectArray.html#aadc261088163bd7d347f0a3475c47d15',1,'leRectArray']]],
+  ['remove',['remove',['../legato__string_8h.html#a1dd047316d0fe21604866b78f268bddd',1,'legato_string.h']]],
+  ['right',['right',['../structleMargin.html#a61938d8fca0e953d39df2d9e06f55b10',1,'leMargin']]],
+  ['rootwidget',['rootWidget',['../structleState.html#ab1eed9fe79ab88d8375ac3a014f042e0',1,'leState']]],
+  ['roundedge',['roundEdge',['../structleArcWidget.html#a19dda259505c00e9a0b27f6b22b0947b',1,'leArcWidget']]]
 ];

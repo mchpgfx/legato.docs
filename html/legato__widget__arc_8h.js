@@ -2,7 +2,7 @@ var legato__widget__arc_8h =
 [
     [ "leArcWidget", "structleArcWidget.html", "structleArcWidget" ],
     [ "THIS_TYPE", "legato__widget__arc_8h.html#acac2bbad341e93473d24b69ab90b9064", null ],
-    [ "leArcWidget", "legato__widget__arc_8h.html#a6921c6c94f0c97e173912a3897ef351d", null ],
+    [ "leArcWidget", "legato__widget__arc_8h.html#a0f5edc470abc606348ccf22a48dd3bf7", null ],
     [ "getCenterAngle", "legato__widget__arc_8h.html#a3bef17d99e1f1ac65ba1aaf9d6f05ffb", null ],
     [ "getRadius", "legato__widget__arc_8h.html#a8c9af49b1c191b0d98ecfdc69767a9ac", null ],
     [ "getRoundEdge", "legato__widget__arc_8h.html#acd0e34c9a5d723ca053f17dd4edce70e", null ],

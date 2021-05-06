@@ -1,7 +1,7 @@
 var legato__pixelbuffer_8h =
 [
     [ "lePixelBuffer", "structlePixelBuffer.html", "structlePixelBuffer" ],
-    [ "lePixelBuffer", "legato__pixelbuffer_8h.html#ad1a04df38a41a83064c96c81b5fbbb74", null ],
+    [ "lePixelBuffer", "legato__pixelbuffer_8h.html#a11c17f1c2de184316d6b4c53d6fe7fbe", null ],
     [ "BufferFlags", "legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f", [
       [ "BF_NONE", "legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712fa56bcbe6f723de8f81d35d38964aab421", null ]
     ] ],
