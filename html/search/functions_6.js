@@ -56,7 +56,6 @@ var searchData=
   ['lefont_5fdrawunknownglyph',['leFont_DrawUnknownGlyph',['../legato__font_8h.html#a03c5addbf7c3e99d681e0e8e53ba52cd',1,'legato_font.c']]],
   ['lefont_5fgetglyphinfo',['leFont_GetGlyphInfo',['../legato__font_8h.html#adc970dea55e5bf510816327877ad7bf2',1,'legato_font.c']]],
   ['lefont_5fgetglyphrect',['leFont_GetGlyphRect',['../legato__font_8h.html#a4df6bc70706d862a4c431b0c88fb6227',1,'legato_font.c']]],
-  ['legetcolormode',['leGetColorMode',['../legato__state_8h.html#ae3b2acf3eebcd8c73311e5c43c8a04ad',1,'legato_state.h']]],
   ['legetdefaultscheme',['leGetDefaultScheme',['../legato__state_8h.html#a7c39f2530a7b1eaed53361054a78e30f',1,'legato_state.c']]],
   ['legeteditwidget',['leGetEditWidget',['../legato__state_8h.html#a0134fcdacb2fa46e99f7a67d5d887f02',1,'legato_state.c']]],
   ['legetfocuswidget',['leGetFocusWidget',['../legato__state_8h.html#a936a179ad73f27fa08c3d0d5e5d585ec',1,'legato_state.c']]],

@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.2</span>
+   &#160;<span id="projectnumber">GFX v3.9.3</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -134,7 +134,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structleLayerState.html">leLayerState</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct describes the layer state for a layer.  <a href="structleLayerState.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structleState.html">leState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct represents the state of the library.  <a href="structleState.html#details">More...</a><br /></td></tr>
@@ -145,6 +144,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a0dcf5bbc7f1bea1a6bc7432b1f0494b5"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a0dcf5bbc7f1bea1a6bc7432b1f0494b5">leLanguageChangedCallback_FnPtr</a>) (uint32_t)</td></tr>
 <tr class="memdesc:a0dcf5bbc7f1bea1a6bc7432b1f0494b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function pointer represents a language change callback.  <a href="#a0dcf5bbc7f1bea1a6bc7432b1f0494b5">More...</a><br /></td></tr>
 <tr class="separator:a0dcf5bbc7f1bea1a6bc7432b1f0494b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f40d805b6f64810a7d26692afa89f0d"><td class="memItemLeft" align="right" valign="top"><a id="a7f40d805b6f64810a7d26692afa89f0d"></a>
+typedef struct <a class="el" href="structleLayerState.html">leLayerState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leLayerState</b></td></tr>
+<tr class="separator:a7f40d805b6f64810a7d26692afa89f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed7831efc7e7403d2413f66400e7a32"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structleState.html">leState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#afed7831efc7e7403d2413f66400e7a32">leState</a></td></tr>
 <tr class="memdesc:afed7831efc7e7403d2413f66400e7a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct represents the state of the library.  <a href="#afed7831efc7e7403d2413f66400e7a32">More...</a><br /></td></tr>
 <tr class="separator:afed7831efc7e7403d2413f66400e7a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,12 +162,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a11a4bdc4862590f21a99b906c43ec363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a11a4bdc4862590f21a99b906c43ec363">leUpdate</a> (uint32_t dt)</td></tr>
 <tr class="memdesc:a11a4bdc4862590f21a99b906c43ec363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shutdown Legato library.  <a href="#a11a4bdc4862590f21a99b906c43ec363">More...</a><br /></td></tr>
 <tr class="separator:a11a4bdc4862590f21a99b906c43ec363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b2acf3eebcd8c73311e5c43c8a04ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#ae3b2acf3eebcd8c73311e5c43c8a04ad">leGetColorMode</a> (void)</td></tr>
-<tr class="memdesc:ae3b2acf3eebcd8c73311e5c43c8a04ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get color mode.  <a href="#ae3b2acf3eebcd8c73311e5c43c8a04ad">More...</a><br /></td></tr>
-<tr class="separator:ae3b2acf3eebcd8c73311e5c43c8a04ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb122dbdabf300ea5e37a1a699797348"><td class="memItemLeft" align="right" valign="top"><a id="abb122dbdabf300ea5e37a1a699797348"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>leLayerCount</b> (void)</td></tr>
+<tr class="separator:abb122dbdabf300ea5e37a1a699797348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0fa42a93350d4dc31118ba6d6afe57"><td class="memItemLeft" align="right" valign="top"><a id="afe0fa42a93350d4dc31118ba6d6afe57"></a>
+int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>leAddLayer</b> (void)</td></tr>
+<tr class="separator:afe0fa42a93350d4dc31118ba6d6afe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5efb644fa1188e78b2e5dc400fe7fa"><td class="memItemLeft" align="right" valign="top"><a id="a7f5efb644fa1188e78b2e5dc400fe7fa"></a>
+<a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRemoveLayer</b> (uint32_t idx)</td></tr>
+<tr class="separator:a7f5efb644fa1188e78b2e5dc400fe7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af967fa0b7516662eea6a0595233d1d47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#af967fa0b7516662eea6a0595233d1d47">leGetLayerColorMode</a> (uint32_t lyrIdx)</td></tr>
 <tr class="memdesc:af967fa0b7516662eea6a0595233d1d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer color mode.  <a href="#af967fa0b7516662eea6a0595233d1d47">More...</a><br /></td></tr>
 <tr class="separator:af967fa0b7516662eea6a0595233d1d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a69a6e453bfbcf1a4e553c26c47ce3101">leAddRootWidget</a> (<a class="el" href="structleWidget.html">leWidget</a> *wgt, uint32_t layer)</td></tr>
+<tr class="memdesc:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add root widget to layer.  <a href="#a69a6e453bfbcf1a4e553c26c47ce3101">More...</a><br /></td></tr>
+<tr class="separator:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c0adff809016bafc18b8e897560de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a68c0adff809016bafc18b8e897560de5">leRemoveRootWidget</a> (<a class="el" href="structleWidget.html">leWidget</a> *wgt, uint32_t layer)</td></tr>
+<tr class="memdesc:a68c0adff809016bafc18b8e897560de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove root widget to layer.  <a href="#a68c0adff809016bafc18b8e897560de5">More...</a><br /></td></tr>
+<tr class="separator:a68c0adff809016bafc18b8e897560de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5f60ac215d6f1b180f49542d8abb569"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#aa5f60ac215d6f1b180f49542d8abb569">leSetLayerColorMode</a> (uint32_t lyrIdx, <a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a> mode)</td></tr>
 <tr class="memdesc:aa5f60ac215d6f1b180f49542d8abb569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set layer color mode.  <a href="#aa5f60ac215d6f1b180f49542d8abb569">More...</a><br /></td></tr>
 <tr class="separator:aa5f60ac215d6f1b180f49542d8abb569"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,12 +225,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aab334c7a14e9bff9afba5c343d9b5ecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#aab334c7a14e9bff9afba5c343d9b5ecd">leIsDrawing</a> (void)</td></tr>
 <tr class="memdesc:aab334c7a14e9bff9afba5c343d9b5ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check active screen drawing state.  <a href="#aab334c7a14e9bff9afba5c343d9b5ecd">More...</a><br /></td></tr>
 <tr class="separator:aab334c7a14e9bff9afba5c343d9b5ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a69a6e453bfbcf1a4e553c26c47ce3101">leAddRootWidget</a> (<a class="el" href="structleWidget.html">leWidget</a> *wgt, uint32_t layer)</td></tr>
-<tr class="memdesc:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add root widget to layer.  <a href="#a69a6e453bfbcf1a4e553c26c47ce3101">More...</a><br /></td></tr>
-<tr class="separator:a69a6e453bfbcf1a4e553c26c47ce3101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c0adff809016bafc18b8e897560de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#a68c0adff809016bafc18b8e897560de5">leRemoveRootWidget</a> (<a class="el" href="structleWidget.html">leWidget</a> *wgt, uint32_t layer)</td></tr>
-<tr class="memdesc:a68c0adff809016bafc18b8e897560de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove root widget to layer.  <a href="#a68c0adff809016bafc18b8e897560de5">More...</a><br /></td></tr>
-<tr class="separator:a68c0adff809016bafc18b8e897560de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae117be3102728e25e7b663166073148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__state_8h.html#aae117be3102728e25e7b663166073148">leWidgetIsInScene</a> (const <a class="el" href="structleWidget.html">leWidget</a> *wgt)</td></tr>
 <tr class="memdesc:aae117be3102728e25e7b663166073148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the widget is in the scene.  <a href="#aae117be3102728e25e7b663166073148">More...</a><br /></td></tr>
 <tr class="separator:aae117be3102728e25e7b663166073148"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -546,33 +554,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae3b2acf3eebcd8c73311e5c43c8a04ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3b2acf3eebcd8c73311e5c43c8a04ad">&#9670;&nbsp;</a></span>leGetColorMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a> leGetColorMode </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get color mode. </p>
-<p>Gets the the color mode of the current context. </p><div class="fragment"><div class="line"><a class="code" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a> mode = <a class="code" href="legato__state_8h.html#ae3b2acf3eebcd8c73311e5c43c8a04ad">leGetColorMode</a>();</div></div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">void.</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the color mode of the current context. </dd></dl>
-
-</div>
-</div>
 <a id="a7c39f2530a7b1eaed53361054a78e30f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c39f2530a7b1eaed53361054a78e30f">&#9670;&nbsp;</a></span>leGetDefaultScheme()</h2>
 
@@ -846,14 +827,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true. </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="legato__state_8h_aab334c7a14e9bff9afba5c343d9b5ecd_icgraph.png" border="0" usemap="#legato__state_8h_aab334c7a14e9bff9afba5c343d9b5ecd_icgraph" alt=""/></div>
-<map name="legato__state_8h_aab334c7a14e9bff9afba5c343d9b5ecd_icgraph" id="legato__state_8h_aab334c7a14e9bff9afba5c343d9b5ecd_icgraph">
-<area shape="rect" id="node2" href="legato__state_8h.html#a200437d3af9ba71729e6cc2dcb373b7b" title="Shutdown Legato library. " alt="" coords="144,5,235,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -881,6 +854,14 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__state_8h_adaa279a581a502a1dd1bfefa14184d37_cgraph.png" border="0" usemap="#legato__state_8h_adaa279a581a502a1dd1bfefa14184d37_cgraph" alt=""/></div>
+<map name="legato__state_8h_adaa279a581a502a1dd1bfefa14184d37_cgraph" id="legato__state_8h_adaa279a581a502a1dd1bfefa14184d37_cgraph">
+<area shape="rect" id="node2" href="legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277" title="Get a value from the list. " alt="" coords="145,5,227,32"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1110,6 +1091,14 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__state_8h_abe5c36a225545bec717742d2a83759d4_cgraph.png" border="0" usemap="#legato__state_8h_abe5c36a225545bec717742d2a83759d4_cgraph" alt=""/></div>
+<map name="legato__state_8h_abe5c36a225545bec717742d2a83759d4_cgraph" id="legato__state_8h_abe5c36a225545bec717742d2a83759d4_cgraph">
+<area shape="rect" id="node2" href="legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277" title="Get a value from the list. " alt="" coords="196,5,277,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1143,6 +1132,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="legato__state_8h_af17f6a1aa6df4e4739f5eb4d6b18a9e9_cgraph.png" border="0" usemap="#legato__state_8h_af17f6a1aa6df4e4739f5eb4d6b18a9e9_cgraph" alt=""/></div>
 <map name="legato__state_8h_af17f6a1aa6df4e4739f5eb4d6b18a9e9_cgraph" id="legato__state_8h_af17f6a1aa6df4e4739f5eb4d6b18a9e9_cgraph">
 <area shape="rect" id="node2" href="legato__state_8h.html#adaa279a581a502a1dd1bfefa14184d37" title="Redraw All. " alt="" coords="172,5,264,32"/>
+<area shape="rect" id="node3" href="legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277" title="Get a value from the list. " alt="" coords="312,5,393,32"/>
 </map>
 </div>
 
@@ -1171,7 +1161,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__state_8h_a200437d3af9ba71729e6cc2dcb373b7b_cgraph.png" border="0" usemap="#legato__state_8h_a200437d3af9ba71729e6cc2dcb373b7b_cgraph" alt=""/></div>
 <map name="legato__state_8h_a200437d3af9ba71729e6cc2dcb373b7b_cgraph" id="legato__state_8h_a200437d3af9ba71729e6cc2dcb373b7b_cgraph">
-<area shape="rect" id="node2" href="legato__state_8h.html#aab334c7a14e9bff9afba5c343d9b5ecd" title="Check active screen drawing state. " alt="" coords="144,5,235,32"/>
+<area shape="rect" id="node2" href="legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277" title="Get a value from the list. " alt="" coords="160,5,241,32"/>
+<area shape="rect" id="node3" href="legato__list_8h.html#ac0b2646accca78c90cbc0004e707b483" title="Pop value from front. " alt="" coords="144,56,257,83"/>
 </map>
 </div>
 

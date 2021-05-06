@@ -34,6 +34,7 @@ var searchData=
   ['leresolvedangleranges',['leResolvedAngleRanges',['../structleResolvedAngleRanges.html',1,'']]],
   ['lescheme',['leScheme',['../structleScheme.html',1,'']]],
   ['leschemecolortable',['leSchemeColorTable',['../unionleSchemeColorTable.html',1,'']]],
+  ['lescratchbuffer',['leScratchBuffer',['../structleScratchBuffer.html',1,'']]],
   ['lesize',['leSize',['../structleSize.html',1,'']]],
   ['lestate',['leState',['../structleState.html',1,'']]],
   ['lestreamdescriptor',['leStreamDescriptor',['../structleStreamDescriptor.html',1,'']]],

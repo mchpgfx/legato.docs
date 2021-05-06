@@ -13,6 +13,6 @@ var structleRenderState =
     [ "globalPalette", "structleRenderState.html#ae6de0e6873ae96896732a7ce1cbd34d4", null ],
     [ "gpuDriver", "structleRenderState.html#ae60810bc5626e1465baba8b189e3e282", null ],
     [ "layerIdx", "structleRenderState.html#a68603fbd1f22be7c4cd7167676bbc43e", null ],
-    [ "layerStates", "structleRenderState.html#ac6b4fabdd1e64996857478bf82c497e7", null ],
+    [ "layerRenderStateList", "structleRenderState.html#a7aa36422ddf0fb76e10b050025bfe70a", null ],
     [ "val", "structleRenderState.html#a46cfd6215abb08826684e3ab2d6cb769", null ]
 ];

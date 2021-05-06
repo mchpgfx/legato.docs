@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.2</span>
+   &#160;<span id="projectnumber">GFX v3.9.3</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -144,9 +144,9 @@ Typedefs</h2></td></tr>
 typedef struct <a class="el" href="structleEvent.html">leEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a44e91f02d637e76e07a4709eb7a6f2ab">leEvent</a></td></tr>
 <tr class="memdesc:a44e91f02d637e76e07a4709eb7a6f2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum presents a event. An event contains valid event ids. <br /></td></tr>
 <tr class="separator:a44e91f02d637e76e07a4709eb7a6f2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe26ab4e00b40d87f41c66ef8963cbf4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#afe26ab4e00b40d87f41c66ef8963cbf4">leEvent_FilterEvent</a>) (<a class="el" href="structleEvent.html">leEvent</a> *)</td></tr>
-<tr class="memdesc:afe26ab4e00b40d87f41c66ef8963cbf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">FilterEvent function pointer.  <a href="#afe26ab4e00b40d87f41c66ef8963cbf4">More...</a><br /></td></tr>
-<tr class="separator:afe26ab4e00b40d87f41c66ef8963cbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f4f2a14d6e5a486fd6c1b1f38d12bb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a64f4f2a14d6e5a486fd6c1b1f38d12bb">leEvent_FilterEvent</a>) (<a class="el" href="structleEvent.html">leEvent</a> *)</td></tr>
+<tr class="memdesc:a64f4f2a14d6e5a486fd6c1b1f38d12bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">FilterEvent function pointer.  <a href="#a64f4f2a14d6e5a486fd6c1b1f38d12bb">More...</a><br /></td></tr>
+<tr class="separator:a64f4f2a14d6e5a486fd6c1b1f38d12bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d0589e61e141d0eab63cb139f2fcee"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structleEventState.html">leEventState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a71d0589e61e141d0eab63cb139f2fcee">leEventState</a></td></tr>
 <tr class="memdesc:a71d0589e61e141d0eab63cb139f2fcee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct represents an event state.  <a href="#a71d0589e61e141d0eab63cb139f2fcee">More...</a><br /></td></tr>
 <tr class="separator:a71d0589e61e141d0eab63cb139f2fcee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,7 +185,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a577e2f4980d93dca5ac097cc042901fe"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a577e2f4980d93dca5ac097cc042901fe">leEvent_GetCount</a> (void)</td></tr>
 <tr class="memdesc:a577e2f4980d93dca5ac097cc042901fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Event Count.  <a href="#a577e2f4980d93dca5ac097cc042901fe">More...</a><br /></td></tr>
 <tr class="separator:a577e2f4980d93dca5ac097cc042901fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50d4a76383cde9f3460df7a42ea49ac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a50d4a76383cde9f3460df7a42ea49ac4">leEvent_SetFilter</a> (<a class="el" href="legato__event_8h.html#afe26ab4e00b40d87f41c66ef8963cbf4">leEvent_FilterEvent</a> cb)</td></tr>
+<tr class="memitem:a50d4a76383cde9f3460df7a42ea49ac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a50d4a76383cde9f3460df7a42ea49ac4">leEvent_SetFilter</a> (<a class="el" href="legato__event_8h.html#a64f4f2a14d6e5a486fd6c1b1f38d12bb">leEvent_FilterEvent</a> cb)</td></tr>
 <tr class="memdesc:a50d4a76383cde9f3460df7a42ea49ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set filter event callback.  <a href="#a50d4a76383cde9f3460df7a42ea49ac4">More...</a><br /></td></tr>
 <tr class="separator:a50d4a76383cde9f3460df7a42ea49ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a107996c97fad1a489f12053b41db2fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__event_8h.html#a107996c97fad1a489f12053b41db2fa6">leEvent_AddEvent</a> (<a class="el" href="structleEvent.html">leEvent</a> *evt)</td></tr>
@@ -202,14 +202,14 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Legato event definitions. </p>
 <p>Defines events that are used in the UI library. Events are created and stored for later processing during a library context's update loop. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="afe26ab4e00b40d87f41c66ef8963cbf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe26ab4e00b40d87f41c66ef8963cbf4">&#9670;&nbsp;</a></span>leEvent_FilterEvent</h2>
+<a id="a64f4f2a14d6e5a486fd6c1b1f38d12bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f4f2a14d6e5a486fd6c1b1f38d12bb">&#9670;&nbsp;</a></span>leEvent_FilterEvent</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>(* leEvent_FilterEvent) (<a class="el" href="structleEvent.html">leEvent</a> *)</td>
+          <td class="memname">typedef <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>(*  leEvent_FilterEvent) (<a class="el" href="structleEvent.html">leEvent</a> *)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -451,7 +451,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> leEvent_SetFilter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="legato__event_8h.html#afe26ab4e00b40d87f41c66ef8963cbf4">leEvent_FilterEvent</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__event_8h.html#a64f4f2a14d6e5a486fd6c1b1f38d12bb">leEvent_FilterEvent</a>&#160;</td>
           <td class="paramname"><em>cb</em></td><td>)</td>
           <td></td>
         </tr>
@@ -459,7 +459,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Set filter event callback. </p>
-<p>Set filter event callback to <span class="param">cb</span>. </p><div class="fragment"><div class="line"><a class="code" href="legato__event_8h.html#afe26ab4e00b40d87f41c66ef8963cbf4">leEvent_FilterEvent</a> cb;</div><div class="line"><a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> result = <a class="code" href="legato__event_8h.html#a50d4a76383cde9f3460df7a42ea49ac4">leEvent_SetFilter</a>(cb);</div><div class="line">@param cb the <span class="keyword">event</span> callback</div></div><!-- fragment --> <dl class="section return"><dt>Returns</dt><dd>LE_SUCCESS if set, otherwise LE_FAILURE. </dd></dl>
+<p>Set filter event callback to <span class="param">cb</span>. </p><div class="fragment"><div class="line"><a class="code" href="legato__event_8h.html#a64f4f2a14d6e5a486fd6c1b1f38d12bb">leEvent_FilterEvent</a> cb;</div><div class="line"><a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> result = <a class="code" href="legato__event_8h.html#a50d4a76383cde9f3460df7a42ea49ac4">leEvent_SetFilter</a>(cb);</div><div class="line">@param cb the <span class="keyword">event</span> callback</div></div><!-- fragment --> <dl class="section return"><dt>Returns</dt><dd>LE_SUCCESS if set, otherwise LE_FAILURE. </dd></dl>
 
 </div>
 </div>

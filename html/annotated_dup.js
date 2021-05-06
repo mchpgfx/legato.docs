@@ -35,6 +35,7 @@ var annotated_dup =
     [ "leResolvedAngleRanges", "structleResolvedAngleRanges.html", "structleResolvedAngleRanges" ],
     [ "leScheme", "structleScheme.html", "structleScheme" ],
     [ "leSchemeColorTable", "unionleSchemeColorTable.html", "unionleSchemeColorTable" ],
+    [ "leScratchBuffer", "structleScratchBuffer.html", "structleScratchBuffer" ],
     [ "leSize", "structleSize.html", "structleSize" ],
     [ "leState", "structleState.html", "structleState" ],
     [ "leStreamDescriptor", "structleStreamDescriptor.html", "structleStreamDescriptor" ],

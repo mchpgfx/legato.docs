@@ -15,7 +15,6 @@ var searchData=
   ['leeventresult',['leEventResult',['../legato__event_8h.html#a84695c83c68a6c3b6b8b5e0c36bc5460',1,'legato_event.h']]],
   ['lefontbpp',['leFontBPP',['../legato__font_8h.html#ac9489802a2f34ed6b9efb8d9978046d9',1,'legato_font.h']]],
   ['lefonttype',['leFontType',['../legato__font_8h.html#a05639afd34bd352bbd608bcd3d17a107',1,'legato_font.h']]],
-  ['leframestate',['leFrameState',['../legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985',1,'legato_renderer.h']]],
   ['legestureid',['leGestureID',['../legato__input_8h.html#ad52fd60cb83e0a12d5e760c692f0e0ce',1,'legato_input.h']]],
   ['lehalignment',['leHAlignment',['../legato__common_8h.html#aa99598706cf044d45a11026397558e1b',1,'legato_common.h']]],
   ['leimagefiltermode',['leImageFilterMode',['../legato__image_8h.html#a6fd98714a57eca9abd0b09e2e754e0ee',1,'legato_image.h']]],

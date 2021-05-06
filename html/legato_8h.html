@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.2</span>
+   &#160;<span id="projectnumber">GFX v3.9.3</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('legato_8h.html','');});
 <div class="textblock"><code>#include &quot;<a class="el" href="legato__common_8h_source.html">gfx/legato/common/legato_common.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__color_8h_source.html">gfx/legato/common/legato_color.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__math_8h_source.html">gfx/legato/common/legato_math.h</a>&quot;</code><br />
+<code>#include &quot;gfx/legato/core/legato_debug.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__input_8h_source.html">gfx/legato/core/legato_input.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__scheme_8h_source.html">gfx/legato/core/legato_scheme.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__state_8h_source.html">gfx/legato/core/legato_state.h</a>&quot;</code><br />
@@ -107,6 +108,7 @@ $(document).ready(function(){initNavTree('legato_8h.html','');});
 <code>#include &quot;<a class="el" href="legato__dynamicstring_8h_source.html">gfx/legato/string/legato_dynamicstring.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__fixedstring_8h_source.html">gfx/legato/string/legato_fixedstring.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__tablestring_8h_source.html">gfx/legato/string/legato_tablestring.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="legato__utils_8h_source.html">gfx/legato/common/legato_utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__editwidget_8h_source.html">gfx/legato/widget/legato_editwidget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="legato__widget__arc_8h_source.html">gfx/legato/widget/arc/legato_widget_arc.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -114,33 +116,35 @@ Include dependency graph for legato.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato_8h__incl.png" border="0" usemap="#legato_8h" alt=""/></div>
 <map name="legato_8h" id="legato_8h">
-<area shape="rect" id="node2" href="legato__common_8h.html" title="Common macros and definitions used by Legato. " alt="" coords="826,527,998,568"/>
-<area shape="rect" id="node8" href="legato__color_8h.html" title="Color definitions and functions. " alt="" coords="1102,437,1274,479"/>
-<area shape="rect" id="node9" href="legato__math_8h.html" title="Defines common math functions for general use. " alt="" coords="1925,80,2097,121"/>
-<area shape="rect" id="node10" href="legato__input_8h.html" title="Legato input definitions. " alt="" coords="561,169,708,211"/>
-<area shape="rect" id="node15" href="legato__scheme_8h.html" title="Schemes support various properties that make it possible to customize the color of widgets..." alt="" coords="779,348,925,389"/>
-<area shape="rect" id="node17" href="legato__state_8h.html" title="gfx/legato/core/legato\l_state.h" alt="" coords="957,80,1104,121"/>
-<area shape="rect" id="node20" href="legato__font_8h.html" title="Font functions and definitions. " alt="" coords="1632,348,1776,389"/>
-<area shape="rect" id="node21" href="legato__stream_8h.html" title="Defines a common header for all stream operations. " alt="" coords="1581,437,1728,479"/>
-<area shape="rect" id="node22" href="legato__editwidget_8h.html" title="Edit widget functions and definitions. " alt="" coords="783,169,943,211"/>
-<area shape="rect" id="node25" href="legato__image_8h.html" title="Image functions and defintions. " alt="" coords="1233,259,1391,300"/>
-<area shape="rect" id="node27" href="legato__palette_8h.html" title="Palette functions and definitions. " alt="" coords="1349,348,1507,389"/>
-<area shape="rect" id="node28" href="legato__memory_8h.html" title="Memory functions and definitions. " alt="" coords="2121,80,2290,121"/>
-<area shape="rect" id="node30" href="legato__renderer_8h.html" title="gfx/legato/renderer\l/legato_renderer.h" alt="" coords="407,169,537,211"/>
-<area shape="rect" id="node32" href="legato__dynamicstring_8h.html" title="Dynamic string functions and definitions. " alt="" coords="1695,169,1849,211"/>
-<area shape="rect" id="node33" href="legato__fixedstring_8h.html" title="Fixed string functions and definitions. " alt="" coords="1465,80,1620,121"/>
-<area shape="rect" id="node34" href="legato__tablestring_8h.html" title="Definition for the table string feature. " alt="" coords="1644,80,1799,121"/>
-<area shape="rect" id="node35" href="legato__widget__arc_8h.html" title="Arc widget definitions and functions. " alt="" coords="239,169,382,211"/>
-<area shape="rect" id="node11" href="legato__event_8h.html" title="Legato event definitions. " alt="" coords="608,348,755,389"/>
-<area shape="rect" id="node13" href="legato__widget_8h.html" title="Legato widget definitions. " alt="" coords="392,259,552,300"/>
-<area shape="rect" id="node12" href="legato__list_8h.html" title="A linked list implementation. " alt="" coords="715,437,874,479"/>
-<area shape="rect" id="node14" href="legato__rect_8h.html" title="Rectangle functions and definitions. " alt="" coords="259,348,431,389"/>
-<area shape="rect" id="node16" href="legato__array_8h.html" title="An array implementation for storing pointers. " alt="" coords="379,437,538,479"/>
-<area shape="rect" id="node19" href="legato__stringtable_8h.html" title="String table functions and definitions. " alt="" coords="1516,259,1671,300"/>
-<area shape="rect" id="node23" href="legato__string_8h.html" title="Fixed string functions and definitions. " alt="" coords="1695,259,1849,300"/>
-<area shape="rect" id="node24" href="legato__error_8h.html" title="Error functions, macros and definitions. " alt="" coords="1803,437,1975,479"/>
-<area shape="rect" id="node26" href="legato__pixelbuffer_8h.html" title="Pixel Buffer functions and definitions. " alt="" coords="1102,348,1274,389"/>
-<area shape="rect" id="node31" href="legato__rectarray_8h.html" title="An array implementation for storing rectangles for the Legato user interface library. " alt="" coords="145,437,303,479"/>
+<area shape="rect" id="node2" href="legato__common_8h.html" title="Common macros and definitions used by Legato. " alt="" coords="877,527,1049,568"/>
+<area shape="rect" id="node8" href="legato__color_8h.html" title="Color definitions and functions. " alt="" coords="1098,437,1270,479"/>
+<area shape="rect" id="node9" href="legato__math_8h.html" title="Defines common math functions for general use. " alt="" coords="1961,259,2133,300"/>
+<area shape="rect" id="node10" href="legato__debug_8h_source.html" title="gfx/legato/core/legato\l_debug.h" alt="" coords="2011,80,2157,121"/>
+<area shape="rect" id="node11" href="legato__input_8h.html" title="Legato input definitions. " alt="" coords="553,169,700,211"/>
+<area shape="rect" id="node16" href="legato__scheme_8h.html" title="Schemes support various properties that make it possible to customize the color of widgets..." alt="" coords="775,348,921,389"/>
+<area shape="rect" id="node18" href="legato__state_8h.html" title="gfx/legato/core/legato\l_state.h" alt="" coords="949,80,1096,121"/>
+<area shape="rect" id="node21" href="legato__font_8h.html" title="Font functions and definitions. " alt="" coords="1679,348,1823,389"/>
+<area shape="rect" id="node22" href="legato__stream_8h.html" title="Defines a common header for all stream operations. " alt="" coords="1677,437,1824,479"/>
+<area shape="rect" id="node23" href="legato__editwidget_8h.html" title="Edit widget functions and definitions. " alt="" coords="775,169,935,211"/>
+<area shape="rect" id="node26" href="legato__image_8h.html" title="Image functions and defintions. " alt="" coords="1320,259,1477,300"/>
+<area shape="rect" id="node28" href="legato__palette_8h.html" title="Palette functions and definitions. " alt="" coords="1295,348,1452,389"/>
+<area shape="rect" id="node29" href="legato__memory_8h.html" title="Memory functions and definitions. " alt="" coords="2182,80,2351,121"/>
+<area shape="rect" id="node31" href="legato__renderer_8h.html" title="gfx/legato/renderer\l/legato_renderer.h" alt="" coords="399,169,529,211"/>
+<area shape="rect" id="node33" href="legato__dynamicstring_8h.html" title="Dynamic string functions and definitions. " alt="" coords="1501,169,1656,211"/>
+<area shape="rect" id="node34" href="legato__fixedstring_8h.html" title="Fixed string functions and definitions. " alt="" coords="1680,169,1835,211"/>
+<area shape="rect" id="node35" href="legato__tablestring_8h.html" title="Definition for the table string feature. " alt="" coords="1715,80,1869,121"/>
+<area shape="rect" id="node36" href="legato__utils_8h.html" title="General internal utilities for the library. " alt="" coords="2375,80,2547,121"/>
+<area shape="rect" id="node37" href="legato__widget__arc_8h.html" title="Arc widget definitions and functions. " alt="" coords="231,169,374,211"/>
+<area shape="rect" id="node12" href="legato__event_8h.html" title="Legato event definitions. " alt="" coords="604,348,751,389"/>
+<area shape="rect" id="node14" href="legato__widget_8h.html" title="Legato widget definitions. " alt="" coords="379,259,539,300"/>
+<area shape="rect" id="node13" href="legato__list_8h.html" title="A linked list implementation. " alt="" coords="665,437,823,479"/>
+<area shape="rect" id="node15" href="legato__rect_8h.html" title="Rectangle functions and definitions. " alt="" coords="249,348,421,389"/>
+<area shape="rect" id="node17" href="legato__array_8h.html" title="An array implementation for storing pointers. " alt="" coords="430,437,589,479"/>
+<area shape="rect" id="node20" href="legato__stringtable_8h.html" title="String table functions and definitions. " alt="" coords="1501,259,1656,300"/>
+<area shape="rect" id="node24" href="legato__string_8h.html" title="Fixed string functions and definitions. " alt="" coords="1731,259,1885,300"/>
+<area shape="rect" id="node25" href="legato__error_8h.html" title="Error functions, macros and definitions. " alt="" coords="1899,437,2071,479"/>
+<area shape="rect" id="node27" href="legato__pixelbuffer_8h.html" title="Pixel Buffer functions and definitions. " alt="" coords="1098,348,1270,389"/>
+<area shape="rect" id="node32" href="legato__rectarray_8h.html" title="An array implementation for storing rectangles for the Legato user interface library. " alt="" coords="145,437,303,479"/>
 </map>
 </div>
 </div>

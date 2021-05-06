@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.2</span>
+   &#160;<span id="projectnumber">GFX v3.9.3</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('legato__renderer_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">legato_renderer.h File Reference</div>  </div>
@@ -134,61 +133,38 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structleRenderLayerState.html">leRenderLayerState</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structleRenderState.html">leRenderState</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structs represents global state of the renderer.  <a href="structleRenderState.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structleGradient.html">leGradient</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4b324ba79fc03a69f56a2e46c48fcc75"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">leFrameState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__renderer_8h.html#a4b324ba79fc03a69f56a2e46c48fcc75">leFrameState</a></td></tr>
-<tr class="memdesc:a4b324ba79fc03a69f56a2e46c48fcc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum represents state of the renderer.  <a href="#a4b324ba79fc03a69f56a2e46c48fcc75">More...</a><br /></td></tr>
-<tr class="separator:a4b324ba79fc03a69f56a2e46c48fcc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a400cdc83570abe51e5fda3c257bcf2"><td class="memItemLeft" align="right" valign="top"><a id="a6a400cdc83570abe51e5fda3c257bcf2"></a>
-typedef struct <a class="el" href="structleRenderLayerState.html">leRenderLayerState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderLayerState</b></td></tr>
-<tr class="separator:a6a400cdc83570abe51e5fda3c257bcf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516cbf077ac85035261bf5e8fbc62855"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structleRenderState.html">leRenderState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__renderer_8h.html#a516cbf077ac85035261bf5e8fbc62855">leRenderState</a></td></tr>
-<tr class="memdesc:a516cbf077ac85035261bf5e8fbc62855"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structs represents global state of the renderer.  <a href="#a516cbf077ac85035261bf5e8fbc62855">More...</a><br /></td></tr>
-<tr class="separator:a516cbf077ac85035261bf5e8fbc62855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a083f91745297ef9663de1ea3ed2ed7df"><td class="memItemLeft" align="right" valign="top"><a id="a083f91745297ef9663de1ea3ed2ed7df"></a>
 typedef struct <a class="el" href="structleGradient.html">leGradient</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leGradient</b></td></tr>
 <tr class="separator:a083f91745297ef9663de1ea3ed2ed7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:abbd66364d459d75aa0e83cc7f2834985"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">leFrameState</a> { <br />
-&#160;&#160;<b>LE_FRAME_READY</b> = 0, 
-<b>LE_FRAME_PREFRAME</b>, 
-<b>LE_FRAME_PRELAYER</b>, 
-<b>LE_FRAME_PRERECT</b>, 
-<br />
-&#160;&#160;<b>LE_FRAME_PREWIDGET</b>, 
-<b>LE_FRAME_DRAWING</b>, 
-<b>LE_FRAME_POSTWIDGET</b>, 
-<b>LE_FRAME_POSTRECT</b>, 
-<br />
-&#160;&#160;<b>LE_FRAME_WAITFORBUFFER</b>, 
-<b>LE_FRAME_POSTLAYER</b>, 
-<b>LE_FRAME_POSTFRAME</b>
-<br />
- }<tr class="memdesc:abbd66364d459d75aa0e83cc7f2834985"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum represents state of the renderer.  <a href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:abbd66364d459d75aa0e83cc7f2834985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a53b67cac23c368698a583b5f9d320513"><td class="memItemLeft" align="right" valign="top"><a id="a53b67cac23c368698a583b5f9d320513"></a>
+gfxDisplayDriver *&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_DisplayInterface</b> (void)</td></tr>
+<tr class="separator:a53b67cac23c368698a583b5f9d320513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3b3e0e23c7852e0b85ce3be8f41405d"><td class="memItemLeft" align="right" valign="top"><a id="ad3b3e0e23c7852e0b85ce3be8f41405d"></a>
+gfxGraphicsProcessor *&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_GPUInterface</b> (void)</td></tr>
+<tr class="separator:ad3b3e0e23c7852e0b85ce3be8f41405d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec33a8889a089804bbc27bc59b3c33f6"><td class="memItemLeft" align="right" valign="top"><a id="aec33a8889a089804bbc27bc59b3c33f6"></a>
 <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_DamageArea</b> (const <a class="el" href="structleRect.html">leRect</a> *rect, uint32_t layerIdx)</td></tr>
 <tr class="separator:aec33a8889a089804bbc27bc59b3c33f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3fe373eca34112cb3ee53a5e3a85087"><td class="memItemLeft" align="right" valign="top"><a id="ad3fe373eca34112cb3ee53a5e3a85087"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_Paint</b> (void)</td></tr>
 <tr class="separator:ad3fe373eca34112cb3ee53a5e3a85087"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a778c0b7849f966ace47f7022a5375460"><td class="memItemLeft" align="right" valign="top"><a id="a778c0b7849f966ace47f7022a5375460"></a>
-<a class="el" href="structleRenderState.html">leRenderState</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>leGetRenderState</b> (void)</td></tr>
-<tr class="separator:a778c0b7849f966ace47f7022a5375460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a853577e2c391434ed7ea868e7abbe686"><td class="memItemLeft" align="right" valign="top"><a id="a853577e2c391434ed7ea868e7abbe686"></a>
+<a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_IsIdle</b> (void)</td></tr>
+<tr class="separator:a853577e2c391434ed7ea868e7abbe686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034e4cbccf34b312a6969ba61fd329b7"><td class="memItemLeft" align="right" valign="top"><a id="a034e4cbccf34b312a6969ba61fd329b7"></a>
+<a class="el" href="structleSize.html">leSize</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_DisplaySize</b> (void)</td></tr>
+<tr class="separator:a034e4cbccf34b312a6969ba61fd329b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d3a435489477cd09b752eb6042a59e"><td class="memItemLeft" align="right" valign="top"><a id="af6d3a435489477cd09b752eb6042a59e"></a>
+<a class="el" href="structleRect.html">leRect</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_GetClipRect</b> (void)</td></tr>
+<tr class="separator:af6d3a435489477cd09b752eb6042a59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79269a212ebe6063eb71432c9f72a71b"><td class="memItemLeft" align="right" valign="top"><a id="a79269a212ebe6063eb71432c9f72a71b"></a>
 <a class="el" href="structlePixelBuffer.html">lePixelBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>leGetRenderBuffer</b> (void)</td></tr>
 <tr class="separator:a79269a212ebe6063eb71432c9f72a71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,9 +183,6 @@ leColor&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_GlobalP
 <tr class="memitem:af04e1ea8f24c3768e71d64ae9df02901"><td class="memItemLeft" align="right" valign="top"><a id="af04e1ea8f24c3768e71d64ae9df02901"></a>
 leColor&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_ConvertColor</b> (leColor inColor, <a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a> inMode)</td></tr>
 <tr class="separator:af04e1ea8f24c3768e71d64ae9df02901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad88c489b5253d9830f1aa892bea9abf"><td class="memItemLeft" align="right" valign="top"><a id="aad88c489b5253d9830f1aa892bea9abf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_GetDrawRect</b> (<a class="el" href="structleRect.html">leRect</a> *rect)</td></tr>
-<tr class="separator:aad88c489b5253d9830f1aa892bea9abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44a51a15a56b9b06042807e28ccdbfa9"><td class="memItemLeft" align="right" valign="top"><a id="a44a51a15a56b9b06042807e28ccdbfa9"></a>
 <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_CullDrawRect</b> (const <a class="el" href="structleRect.html">leRect</a> *rect)</td></tr>
 <tr class="separator:a44a51a15a56b9b06042807e28ccdbfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,60 +257,7 @@ leColor&#160;</td><td class="memItemRight" valign="bottom"><b>leRenderer_GetPixe
 <tr class="separator:a0437ab2092a02ebcadb20458ff2b4af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a4b324ba79fc03a69f56a2e46c48fcc75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b324ba79fc03a69f56a2e46c48fcc75">&#9670;&nbsp;</a></span>leFrameState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef enum <a class="el" href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">leFrameState</a>  <a class="el" href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">leFrameState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This enum represents state of the renderer. </p>
-<p>This enum type describes the state at which a widget is being drawn. </p>
-
-</div>
-</div>
-<a id="a516cbf077ac85035261bf5e8fbc62855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a516cbf077ac85035261bf5e8fbc62855">&#9670;&nbsp;</a></span>leRenderState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structleRenderState.html">leRenderState</a>  <a class="el" href="structleRenderState.html">leRenderState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This structs represents global state of the renderer. </p>
-<p>This struct type describes the state at which a widget is being drawn. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="abbd66364d459d75aa0e83cc7f2834985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd66364d459d75aa0e83cc7f2834985">&#9670;&nbsp;</a></span>leFrameState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985">leFrameState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This enum represents state of the renderer. </p>
-<p>This enum type describes the state at which a widget is being drawn. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"></div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

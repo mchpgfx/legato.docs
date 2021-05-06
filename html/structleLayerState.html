@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.2</span>
+   &#160;<span id="projectnumber">GFX v3.9.3</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -90,22 +90,27 @@ $(document).ready(function(){initNavTree('structleLayerState.html','');});
 <div class="title">leLayerState Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This struct describes the layer state for a layer.  
- <a href="structleLayerState.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="legato__state_8h_source.html">/home/rhone/work/h3/gfx/middleware/legato/library/src/gfx/legato/core/legato_state.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for leLayerState:</div>
 <div class="dyncontent">
 <div class="center"><img src="structleLayerState__coll__graph.png" border="0" usemap="#leLayerState_coll__map" alt="Collaboration graph"/></div>
 <map name="leLayerState_coll__map" id="leLayerState_coll__map">
-<area shape="rect" id="node2" href="structlePoint.html" title="This structure represents a integer Cartesian point. " alt="" coords="21,5,84,32"/>
+<area shape="rect" id="node2" href="structleWidget.html" title="Used to define a widget. " alt="" coords="333,184,407,211"/>
+<area shape="rect" id="node3" href="structleMargin.html" title="This struct represents the four margin settings for objects. " alt="" coords="387,95,457,121"/>
+<area shape="rect" id="node4" href="structleArray.html" title="This struct represents a array. " alt="" coords="481,95,544,121"/>
+<area shape="rect" id="node9" href="structleWidgetEventFilter.html" title="Used to define widget touch event filter. " alt="" coords="226,95,362,121"/>
+<area shape="rect" id="node6" href="structleRect.html" title="This struct represents a rectangle. " alt="" coords="141,95,201,121"/>
+<area shape="rect" id="node7" href="structleScheme.html" title="leScheme" alt="" coords="37,95,117,121"/>
+<area shape="rect" id="node8" href="unionleSchemeColorTable.html" title="leSchemeColorTable" alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node10" href="structlePoint.html" title="This structure represents a integer Cartesian point. " alt="" coords="620,184,683,211"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
+<tr class="memitem:a548a4b80cdbf23656c493e0c11993c2e"><td class="memItemLeft" align="right" valign="top"><a id="a548a4b80cdbf23656c493e0c11993c2e"></a>
+<a class="el" href="structleWidget.html">leWidget</a>&#160;</td><td class="memItemRight" valign="bottom"><b>root</b></td></tr>
+<tr class="separator:a548a4b80cdbf23656c493e0c11993c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc94789c79a0808aa63cf3bdbc57397b"><td class="memItemLeft" align="right" valign="top"><a id="abc94789c79a0808aa63cf3bdbc57397b"></a>
 <a class="el" href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>colorMode</b></td></tr>
 <tr class="separator:abc94789c79a0808aa63cf3bdbc57397b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,11 +120,17 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ae877fd03417233f232c8bc4f3453fdc7"><td class="memItemLeft" align="right" valign="top"><a id="ae877fd03417233f232c8bc4f3453fdc7"></a>
 <a class="el" href="structlePoint.html">lePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>driverPosition</b></td></tr>
 <tr class="separator:ae877fd03417233f232c8bc4f3453fdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21cef8e2ee249cc8186248a3f52049f7"><td class="memItemLeft" align="right" valign="top"><a id="a21cef8e2ee249cc8186248a3f52049f7"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>rendererData</b></td></tr>
+<tr class="separator:a21cef8e2ee249cc8186248a3f52049f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934a6d568a200f47496a4201fe9c265b"><td class="memItemLeft" align="right" valign="top"><a id="a934a6d568a200f47496a4201fe9c265b"></a>
+struct <a class="el" href="structleLayerState.html">leLayerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>prev</b></td></tr>
+<tr class="separator:a934a6d568a200f47496a4201fe9c265b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2c6ed129d0707aba0f2a238b798e32"><td class="memItemLeft" align="right" valign="top"><a id="aeb2c6ed129d0707aba0f2a238b798e32"></a>
+struct <a class="el" href="structleLayerState.html">leLayerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>next</b></td></tr>
+<tr class="separator:aeb2c6ed129d0707aba0f2a238b798e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This struct describes the layer state for a layer. </p>
-<p>This struct contains useful information about a layer such as color mode, rendering options, etc. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="legato__state_8h_source.html">legato_state.h</a></li>
 </ul>
 </div><!-- contents -->

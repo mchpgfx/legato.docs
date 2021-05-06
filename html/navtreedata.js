@@ -1,6 +1,9 @@
 var NAVTREE =
 [
   [ "MPLAB® Harmony Graphics Suite", "index.html", [
+    [ "Legato Graphics Library", "index.html", [
+      [ "Welcome", "index.html#autotoc_md1", null ]
+    ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -27,11 +30,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"legato__fixedstring_8h.html#acac2bbad341e93473d24b69ab90b9064",
-"legato__math_8h.html#acdca4b32bf211677dd6fb8adf815c1c2",
-"legato__string_8h.html#afbbc12e2fbe26e9f40ccbb283a4a1013",
-"legato__widget__skin__classic__common_8h.html#a100e40bbfc75d16384481ac579616467",
-"structleState.html#a9b5fb1a36ceceb0f944ebe6b621385bc"
+"legato__fixedheap_8h.html",
+"legato__math_8h.html#a95b7ddc3938ddbfb90bc1a99268c2c8e",
+"legato__string__renderer_8h.html",
+"legato__widget__skin__classic__common_8h.html#a3d1f4af1fb23e1ebc5e800d8938d4003",
+"structleState.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
