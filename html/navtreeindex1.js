@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"legato__fixedheap_8h.html":[2,0,11],
-"legato__fixedheap_8h_source.html":[2,0,11],
 "legato__fixedstring_8h.html":[2,0,12],
 "legato__fixedstring_8h.html#a14ade03024bfb1bc1ba571e4caeec7e2":[2,0,12,4],
 "legato__fixedstring_8h.html#a7f3b9c3b0a5aedb00d618c2ab7d1e9dd":[2,0,12,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "legato__math_8h.html#a8a9b9a044c032787d90b0d3253f858a8":[2,0,25,12],
 "legato__math_8h.html#a8f18fefef88bff1950f3061330ff335c":[2,0,25,16],
 "legato__math_8h.html#a8fb8b23ccd1be2fa428318dfebb295cb":[2,0,25,15],
-"legato__math_8h.html#a94c3e343d61512d000c0c26e427cb136":[2,0,25,39]
+"legato__math_8h.html#a94c3e343d61512d000c0c26e427cb136":[2,0,25,39],
+"legato__math_8h.html#a95b7ddc3938ddbfb90bc1a99268c2c8e":[2,0,25,20],
+"legato__math_8h.html#aaa3b40599a8d548b4e604434e32abf47":[2,0,25,13]
 };

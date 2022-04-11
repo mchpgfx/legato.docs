@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MPLAB® Harmony Graphics Suite
-   &#160;<span id="projectnumber">GFX v3.9.4</span>
+   &#160;<span id="projectnumber">GFX v3.10.0</span>
    </div>
    <div id="projectbrief">Legato API Documentation</div>
   </td>
@@ -132,18 +132,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a21b9d20367e19119635fc69fdf3ca002"><td class="memItemLeft" align="right" valign="top"><a id="a21b9d20367e19119635fc69fdf3ca002"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_UNKNOWN_GLYPH</b>&#160;&#160;&#160;0xFFFF</td></tr>
 <tr class="separator:a21b9d20367e19119635fc69fdf3ca002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a237b8c5737db6c1c5ccd2515a1382c7c"><td class="memItemLeft" align="right" valign="top"><a id="a237b8c5737db6c1c5ccd2515a1382c7c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_PCALL</b>(var,  func)&#160;&#160;&#160;var-&gt;fn-&gt;func(var)</td></tr>
-<tr class="separator:a237b8c5737db6c1c5ccd2515a1382c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a044dceea8a362eb989ce204cae1d45d9"><td class="memItemLeft" align="right" valign="top"><a id="a044dceea8a362eb989ce204cae1d45d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_OCALL</b>(var,  func)&#160;&#160;&#160;var.fn-&gt;func(&amp;var)</td></tr>
-<tr class="separator:a044dceea8a362eb989ce204cae1d45d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd76fa4dbf1a8d3d2a1562937f1117cc"><td class="memItemLeft" align="right" valign="top"><a id="acd76fa4dbf1a8d3d2a1562937f1117cc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_PCALL_ARG</b>(var,  func, ...)&#160;&#160;&#160;var-&gt;fn-&gt;func(var, __VA_ARGS__)</td></tr>
-<tr class="separator:acd76fa4dbf1a8d3d2a1562937f1117cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3812555ab789a1df9a536eeb1d5ccae2"><td class="memItemLeft" align="right" valign="top"><a id="a3812555ab789a1df9a536eeb1d5ccae2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_OCALL_ARG</b>(var,  func, ...)&#160;&#160;&#160;var.fn-&gt;func(&amp;var, __VA_ARGS__)</td></tr>
-<tr class="separator:a3812555ab789a1df9a536eeb1d5ccae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe15fe00ea3ae1749bae212d0a5c9f6d"><td class="memItemLeft" align="right" valign="top"><a id="abe15fe00ea3ae1749bae212d0a5c9f6d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_PCALL</b>(var,  func,  args...)&#160;&#160;&#160;var-&gt;fn-&gt;func(var, ## args)</td></tr>
+<tr class="separator:abe15fe00ea3ae1749bae212d0a5c9f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfa0fb07e2875a2cf3dd1458e7baae4e"><td class="memItemLeft" align="right" valign="top"><a id="acfa0fb07e2875a2cf3dd1458e7baae4e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LE_OCALL</b>(var,  func,  args...)&#160;&#160;&#160;var.fn-&gt;func(&amp;var, ## args)</td></tr>
+<tr class="separator:acfa0fb07e2875a2cf3dd1458e7baae4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08b5dd1a23c006f636ba1d0ba5331c4a"><td class="memItemLeft" align="right" valign="top"><a id="a08b5dd1a23c006f636ba1d0ba5331c4a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>ASSIGN_VIRTUAL_FUNCTION</b>(name)&#160;&#160;&#160;.name = name</td></tr>
 <tr class="separator:a08b5dd1a23c006f636ba1d0ba5331c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>

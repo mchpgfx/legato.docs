@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"legato__widget__skin__classic__common_8h.html#a3d1f4af1fb23e1ebc5e800d8938d4003":[2,0,71,0],
-"legato__widget__skin__classic__common_8h.html#a484a86fd6a1e533136d177a083922cb9":[2,0,71,3],
 "legato__widget__skin__classic__common_8h.html#a69d922656bbd8f15d9623e4fec084913":[2,0,71,10],
 "legato__widget__skin__classic__common_8h.html#a6d5bece08c8a5a7d2e5eac80dd46c907":[2,0,71,14],
 "legato__widget__skin__classic__common_8h.html#a788ade3938977f3be82c7159291384b3":[2,0,71,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "structleScratchBuffer.html#ada0bfd80553342918ffde53dcdd55966":[1,0,35,1],
 "structleSize.html":[1,0,36],
 "structleSize.html#a395d15e7c2b09961c1bfd1da6179b64c":[1,0,36,1],
-"structleSize.html#a5d8006e753a3e76ff637a4e092bbed71":[1,0,36,0]
+"structleSize.html#a5d8006e753a3e76ff637a4e092bbed71":[1,0,36,0],
+"structleState.html":[1,0,37],
+"structleState.html#a189a431f0b8661480d7e86f92d50894f":[1,0,37,4]
 };
