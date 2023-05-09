@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['tail',['tail',['../structleList.html#aeb3092aa009e5df3e648ce4596c81b0a',1,'leList']]],
-  ['thickness',['thickness',['../structleArcWidget.html#a55d5859ba68f031d10e58b9b7fca2147',1,'leArcWidget']]],
-  ['top',['top',['../structleMargin.html#a258cc7d2c4042881276bd70e65f49ea3',1,'leMargin']]]
+  ['radius_0',['radius',['../structleArcWidget.html#a717462214d2d8f1d768bccfb01a63d08',1,'leArcWidget']]],
+  ['rects_1',['rects',['../structleRectArray.html#aadc261088163bd7d347f0a3475c47d15',1,'leRectArray']]],
+  ['registermembase2d_2',['registerMemBase2D',['../structn2d__module__parameters.html#a68901061c20f4c3522ca8857f699cdd9',1,'n2d_module_parameters']]],
+  ['registermemsize2d_3',['registerMemSize2D',['../structn2d__module__parameters.html#aabf1aa6e03b9be915317a524b38951d6',1,'n2d_module_parameters']]],
+  ['right_4',['right',['../structleMargin.html#a61938d8fca0e953d39df2d9e06f55b10',1,'leMargin']]],
+  ['roundedge_5',['roundEdge',['../structleArcWidget.html#a19dda259505c00e9a0b27f6b22b0947b',1,'leArcWidget']]]
 ];

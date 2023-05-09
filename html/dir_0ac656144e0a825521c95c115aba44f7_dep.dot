@@ -1,0 +1,20 @@
+digraph "C:/microchip/harmony3/gfx/middleware/legato/driver"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_9cf0f24d1989eb4385e7a9dc62e972e5 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="legato", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_9cf0f24d1989eb4385e7a9dc62e972e5.html",tooltip=""]
+  subgraph clusterdir_0ac656144e0a825521c95c115aba44f7 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_0ac656144e0a825521c95c115aba44f7.html",tooltip=""]
+    dir_0ac656144e0a825521c95c115aba44f7 [shape=plaintext, label="driver"];
+  dir_0e2121b17d1a0cd132c3b0315f81fcf4 [label="config", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_0e2121b17d1a0cd132c3b0315f81fcf4.html",tooltip=""];
+  dir_c3b8d82ce3ca523ae8c204fa21625ada [label="controller", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_c3b8d82ce3ca523ae8c204fa21625ada.html",tooltip=""];
+  dir_66c9281a4ade6df924e8989bd8eac943 [label="processor", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_66c9281a4ade6df924e8989bd8eac943.html",tooltip=""];
+  dir_ab56a2822241337f74a55471127b9e76 [label="templates", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_ab56a2822241337f74a55471127b9e76.html",tooltip=""];
+  }
+  }
+}

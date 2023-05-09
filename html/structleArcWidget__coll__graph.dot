@@ -1,0 +1,30 @@
+digraph "leArcWidget"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="leArcWidget",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This struct represents a arc widget."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" widget" ];
+  Node2 [label="leWidget",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleWidget.html",tooltip="Used to define a widget."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" rect" ];
+  Node3 [label="leRect",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleRect.html",tooltip="This struct represents a rectangle."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" margin" ];
+  Node4 [label="leMargin",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleMargin.html",tooltip="This struct represents the four margin settings for objects."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" scheme" ];
+  Node5 [label="leScheme",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structleScheme.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" tables" ];
+  Node6 [label="leSchemeColorTable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$unionleSchemeColorTable.html",tooltip=" "];
+  Node7 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" blendTables" ];
+  Node7 [label="leBlendLookupTable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleBlendLookupTable.html",tooltip="This struct represents a blend color lookup table."];
+  Node8 -> Node7 [dir="back",color="darkorchid3",style="dashed",label=" data" ];
+  Node8 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" eventFilters" ];
+  Node9 [label="leWidgetEventFilter",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleWidgetEventFilter.html",tooltip="Used to define widget touch event filter."];
+  Node8 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" data" ];
+  Node2 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" parent" ];
+  Node10 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" children" ];
+  Node10 [label="leArray",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleArray.html",tooltip="This struct represents a array."];
+  Node8 -> Node10 [dir="back",color="darkorchid3",style="dashed",label=" values" ];
+}

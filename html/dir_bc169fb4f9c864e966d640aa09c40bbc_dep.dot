@@ -1,0 +1,17 @@
+digraph "C:/microchip/harmony3/gfx/middleware/legato/driver/controller/xlcdc/templates"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_bc5d808177dd539eceb66640a729b66a {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="xlcdc", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_bc5d808177dd539eceb66640a729b66a.html",tooltip=""]
+  subgraph clusterdir_bc169fb4f9c864e966d640aa09c40bbc {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_bc169fb4f9c864e966d640aa09c40bbc.html",tooltip=""]
+    dir_bc169fb4f9c864e966d640aa09c40bbc [shape=plaintext, label="templates"];
+  dir_4fd85844dcf566afbaaf25a7fcbadb8f [label="plib", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4fd85844dcf566afbaaf25a7fcbadb8f.html",tooltip=""];
+  }
+  }
+}

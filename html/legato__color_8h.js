@@ -1,16 +1,13 @@
 var legato__color_8h =
 [
     [ "leColorModeInfo", "structleColorModeInfo.html", "structleColorModeInfo" ],
-    [ "LE_COLOR_MODE_COUNT", "legato__color_8h.html#a5e1ae010ce16b7fc369cd43fb49f9dec", null ],
-    [ "LE_COLOR_MODE_IS_ALPHA", "legato__color_8h.html#aed9cd60a7207f333835213f376bb6a83", null ],
-    [ "LE_COLOR_MODE_IS_INDEX", "legato__color_8h.html#aae9b36c661f58f3dc83a008e5e160d83", null ],
-    [ "LE_COLOR_MODE_IS_PIXEL", "legato__color_8h.html#a15e64aa14546027ad15da8c3e3f423a8", null ],
-    [ "LE_COLOR_MODE_LAST_COLOR", "legato__color_8h.html#a17b7ca468f2938182cdd07d31e51d6f2", null ],
-    [ "leBitsPerPixel", "legato__color_8h.html#a9d5b28eb2dbea127caf1872102fdfea8", null ],
-    [ "leColorMask", "legato__color_8h.html#a5bcefdc4fb3a97c31b6e329cff0fc98c", null ],
-    [ "leColorMode", "legato__color_8h.html#a9dc2d6954499d74025d673f1ae43aa29", null ],
-    [ "leColorModeInfo", "legato__color_8h.html#adc708a036cdf4e2f77f3e320c5453332", null ],
-    [ "leColorName", "legato__color_8h.html#a21cbeae2e1d8d9655e31c6c8c8301a5d", null ],
+    [ "leBlendLookupTable", "structleBlendLookupTable.html", "structleBlendLookupTable" ],
+    [ "leBitsPerPixel", "legato__color_8h.html#a72813ff1ba771ef6d3c379fb1024839d", null ],
+    [ "leBlendLookupTable", "legato__color_8h.html#ab651365563ffde192859bbca1d41a001", null ],
+    [ "leColorMask", "legato__color_8h.html#abf8fa246d2e25b62abe3183dc806dabc", null ],
+    [ "leColorMode", "legato__color_8h.html#a5c08f54dce6b4cba7282dc8e8d707b2d", null ],
+    [ "leColorModeInfo", "legato__color_8h.html#a672805540e309fb6cd1a5a5c5f878c73", null ],
+    [ "leColorName", "legato__color_8h.html#afc308976f8675ee972a0d800a2083486", null ],
     [ "leBitsPerPixel", "legato__color_8h.html#a48f5a8f0906ac6c0f662c806aebc932b", [
       [ "LE_BPP1", "legato__color_8h.html#a48f5a8f0906ac6c0f662c806aebc932baaa4ac795895d9faf58a15843e41ea31c", null ],
       [ "LE_BPP4", "legato__color_8h.html#a48f5a8f0906ac6c0f662c806aebc932baabf03f8724379a019e7b2b658e2b2261", null ],
@@ -32,7 +29,6 @@ var legato__color_8h =
     ] ],
     [ "leColorMode", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140", [
       [ "LE_COLOR_MODE_GS_8", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a3610c3cce1b528807cc7c9cf8195e783", null ],
-      [ "LE_COLOR_MODE_PALETTE", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a21524f97ff1e48533348ed70c1985ed8", null ],
       [ "LE_COLOR_MODE_RGB_332", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a37b393334eb17160c7d5b9bccbc843fd", null ],
       [ "LE_COLOR_MODE_RGB_565", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a09dce78f05f8f091d7a7422fed5854ba", null ],
       [ "LE_COLOR_MODE_RGBA_5551", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a6700285b8f902648f1646fa3e0390355", null ],
@@ -42,7 +38,8 @@ var legato__color_8h =
       [ "LE_COLOR_MODE_INDEX_1", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a43bc0682496bb9c5d238c50b81c9e8cd", null ],
       [ "LE_COLOR_MODE_INDEX_4", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a2e047d0e370b3543f0d9d53aaac69fb8", null ],
       [ "LE_COLOR_MODE_INDEX_8", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140ad7eb31b5ebcf08beb47a9681ef1a6d99", null ],
-      [ "LE_COLOR_MODE_LAST", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a0e18cbd3fb16e0fc1f495786b3c04d52", null ]
+      [ "LE_COLOR_MODE_PALETTE", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a21524f97ff1e48533348ed70c1985ed8", null ],
+      [ "LE_COLOR_MODE_MONOCHROME", "legato__color_8h.html#a99a315210e3dcfc88bd239549745b140a6d629db886b79a0d44545453a7e081bb", null ]
     ] ],
     [ "leColorName", "legato__color_8h.html#a413acbccaed28cdfdf8c49e77025fe93", [
       [ "LE_COLOR_BLACK", "legato__color_8h.html#a413acbccaed28cdfdf8c49e77025fe93abd848663f51f17b22bb1dd2f8c41da32", null ],

@@ -1,0 +1,52 @@
+digraph "leState"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="leState",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This struct represents the state of the library."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" stringTable" ];
+  Node2 [label="leStringTable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleStringTable.html",tooltip="This struct represents string a string table."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" header" ];
+  Node3 [label="leStreamDescriptor",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleStreamDescriptor.html",tooltip="This struct represents a stream descriptor."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" address" ];
+  Node4 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" fontTable" ];
+  Node5 [label="leFont",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleFont.html",tooltip="This struct represents a font object."];
+  Node3 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" header" ];
+  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" defaultScheme" ];
+  Node6 [label="leScheme",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structleScheme.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",style="dashed",label=" tables" ];
+  Node7 [label="leSchemeColorTable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$unionleSchemeColorTable.html",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",style="dashed",label=" blendTables" ];
+  Node8 [label="leBlendLookupTable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleBlendLookupTable.html",tooltip="This struct represents a blend color lookup table."];
+  Node4 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" data" ];
+  Node9 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" focus" ];
+  Node9 [label="leWidget",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleWidget.html",tooltip="Used to define a widget."];
+  Node10 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" rect" ];
+  Node10 [label="leRect",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleRect.html",tooltip="This struct represents a rectangle."];
+  Node11 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" margin" ];
+  Node11 [label="leMargin",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleMargin.html",tooltip="This struct represents the four margin settings for objects."];
+  Node6 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" scheme" ];
+  Node12 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" eventFilters" ];
+  Node12 [label="leWidgetEventFilter",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleWidgetEventFilter.html",tooltip="Used to define widget touch event filter."];
+  Node4 -> Node12 [dir="back",color="darkorchid3",style="dashed",label=" data" ];
+  Node9 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" parent" ];
+  Node13 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" children" ];
+  Node13 [label="leArray",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleArray.html",tooltip="This struct represents a array."];
+  Node4 -> Node13 [dir="back",color="darkorchid3",style="dashed",label=" values" ];
+  Node14 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" edit" ];
+  Node14 [label="leEditWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structleEditWidget.html",tooltip=" "];
+  Node9 -> Node14 [dir="back",color="darkorchid3",style="dashed",label=" widget" ];
+  Node15 -> Node14 [dir="back",color="darkorchid3",style="dashed",label=" fn" ];
+  Node15 [label="leEditWidgetVTable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structleEditWidgetVTable.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" languageChangedCB" ];
+  Node16 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" layerList" ];
+  Node16 [label="leList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleList.html",tooltip="This struct represents a list."];
+  Node17 -> Node16 [dir="back",color="darkorchid3",style="dashed",label=" head\ntail" ];
+  Node17 [label="leListNode",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleListNode.html",tooltip="This struct represents a list node ."];
+  Node17 -> Node17 [dir="back",color="darkorchid3",style="dashed",label=" next" ];
+  Node4 -> Node17 [dir="back",color="darkorchid3",style="dashed",label=" val" ];
+}

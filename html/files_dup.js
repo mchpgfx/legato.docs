@@ -1,4 +1,4 @@
 var files_dup =
 [
-    [ "gfx", "dir_3a924b96366437974edfa9bf6ddad245.html", "dir_3a924b96366437974edfa9bf6ddad245" ]
+    [ "microchip", "dir_60864ceb768185ac6327ae001cbbf6bb.html", "dir_60864ceb768185ac6327ae001cbbf6bb" ]
 ];

@@ -1,0 +1,16 @@
+digraph "GFXC_CANVAS"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="GFXC_CANVAS",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This struct represents a gfx canvas."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" pixelBuffer" ];
+  Node2 [label="gfxPixelBuffer",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structgfxPixelBuffer.html",tooltip="This struct represents a pixel buffer."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" size" ];
+  Node3 [label="gfxSize",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structgfxSize.html",tooltip="This struct represents a size."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" pixels" ];
+  Node4 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" cb\nparm" ];
+}

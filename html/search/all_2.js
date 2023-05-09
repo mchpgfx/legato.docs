@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['base',['base',['../structleDynamicString.html#ac5ebef358500a0bff871cd976e0bbd95',1,'leDynamicString::base()'],['../structleFixedString.html#ac5ebef358500a0bff871cd976e0bbd95',1,'leFixedString::base()']]],
-  ['bottom',['bottom',['../structleMargin.html#a9880178aac6c2ab6f16ed7dc6560a06c',1,'leMargin']]],
-  ['bpp',['bpp',['../structleColorModeInfo.html#ac2987cad919bae7cfaa2b2a9122e5702',1,'leColorModeInfo']]],
-  ['bppordinal',['bppOrdinal',['../structleColorModeInfo.html#a1f7f876b6cdab0036549c6f0b3c4187d',1,'leColorModeInfo']]],
-  ['bufferflags',['BufferFlags',['../legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f',1,'legato_pixelbuffer.h']]]
+  ['addr_0',['addr',['../structgpu__buffer.html#ab439e3a90339e2e8ca8f82d4557a34e5',1,'gpu_buffer']]],
+  ['address_1',['address',['../structleStreamDescriptor.html#ab96816d317aa5196e2ef198d9a8d621b',1,'leStreamDescriptor']]],
+  ['append_2',['append',['../legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'legato_string.h']]],
+  ['arcdrawstate_3',['ArcDrawState',['../structArcDrawState.html',1,'']]],
+  ['assetbatch_4',['AssetBatch',['../classassetbatch_1_1AssetBatch.html',1,'assetbatch']]]
 ];

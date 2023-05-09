@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['capacity',['capacity',['../structleArray.html#a391c992c66c3e5540265a85ec2b9216a',1,'leArray::capacity()'],['../structleRectArray.html#a391c992c66c3e5540265a85ec2b9216a',1,'leRectArray::capacity()'],['../structleDynamicString.html#a6be948a502bdacee3d2a2cc1d2f97ece',1,'leDynamicString::capacity()'],['../structleFixedString.html#a6be948a502bdacee3d2a2cc1d2f97ece',1,'leFixedString::capacity()']]],
-  ['centerangle',['centerAngle',['../structleArcWidget.html#a3ba7a21e4d35f51a1fcb6b746f96d196',1,'leArcWidget']]],
-  ['charat',['charAt',['../legato__string_8h.html#aec7d58a2e4f2cd0fed851685ab103370',1,'legato_string.h']]],
-  ['clear',['clear',['../legato__string_8h.html#acba8eef61054183ec3899f526a3a68ec',1,'legato_string.h']]],
-  ['colorcount',['colorCount',['../structlePalette.html#aa7814662d841c9730df86e132fe48a77',1,'lePalette']]],
-  ['colormode',['colorMode',['../structlePalette.html#abc94789c79a0808aa63cf3bdbc57397b',1,'lePalette']]],
-  ['compare',['compare',['../legato__string_8h.html#a9a0884614b95218aeeba25a9a5d9db33',1,'legato_string.h']]]
+  ['background_0',['background',['../structleBlendLookupTable.html#a7127ce5410d80680795d64b91c6be6d7',1,'leBlendLookupTable']]],
+  ['base_1',['base',['../structleDynamicString.html#ac5ebef358500a0bff871cd976e0bbd95',1,'leDynamicString::base()'],['../structleFixedString.html#ac5ebef358500a0bff871cd976e0bbd95',1,'leFixedString::base()']]],
+  ['baseaddress_2',['baseAddress',['../structn2d__module__parameters.html#ae92b89aa1d823af8cca71ad199a62be2',1,'n2d_module_parameters']]],
+  ['bottom_3',['bottom',['../structleMargin.html#a9880178aac6c2ab6f16ed7dc6560a06c',1,'leMargin']]],
+  ['bpp_4',['bpp',['../structleColorModeInfo.html#ac2987cad919bae7cfaa2b2a9122e5702',1,'leColorModeInfo']]],
+  ['bppordinal_5',['bppOrdinal',['../structleColorModeInfo.html#a1f7f876b6cdab0036549c6f0b3c4187d',1,'leColorModeInfo']]],
+  ['bspsupportobj_6',['bspSupportObj',['../classbsp__utils_1_1bspSupportObj.html',1,'bsp_utils']]],
+  ['bufferflags_7',['BufferFlags',['../legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f',1,'legato_pixelbuffer.h']]]
 ];

@@ -1,0 +1,15 @@
+digraph "leTableString"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="leTableString",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This struct represents a table string."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" base" ];
+  Node2 [label="leString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structleString.html",tooltip="This struct represents a string."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" fn" ];
+  Node3 [label="leStringVTable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structleStringVTable.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" invCBUserData\ninvCallback\npreCBUserData\npreInvCallback" ];
+  Node4 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}
