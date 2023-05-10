@@ -1,5 +1,7 @@
 var drv__gfx__disp__intf_8h =
 [
+    [ "DRV_GFX_DEPRECATED", "drv__gfx__disp__intf_8h.html#aedfdb78383a555dc2d37a59f0a193b97", null ],
+    [ "GFX_Disp_Intf", "drv__gfx__disp__intf_8h.html#a569599a3cccb6c1a999d6e33bf31f423", null ],
     [ "GFX_Disp_Intf_Callback", "drv__gfx__disp__intf_8h.html#af36249bd431be8397a1be68e7c5aae52", null ],
     [ "GFX_DISP_INTF_PIN", "drv__gfx__disp__intf_8h.html#a2f67872154f750cbc550f6bb277285a4", [
       [ "GFX_DISP_INTF_PIN_CS", "drv__gfx__disp__intf_8h.html#a2f67872154f750cbc550f6bb277285a4a9be025874d5b26f2f8b370071a5605a0", null ],

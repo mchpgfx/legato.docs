@@ -1,12 +1,14 @@
 var legato__input_8h =
 [
     [ "leTouchState", "structleTouchState.html", "structleTouchState" ],
-    [ "leInputState", "structleInputState.html", null ],
-    [ "leGestureID", "legato__input_8h.html#a41c391d3b46b291bef434fb57a654419", null ],
-    [ "leInputState", "legato__input_8h.html#a7b4a378c2d2766c99deefe759100a68a", null ],
-    [ "leKey", "legato__input_8h.html#a5252c9298d255e9688093c0be8e78e09", null ],
-    [ "leMouseButton", "legato__input_8h.html#a719eaa5e4af291d2064b6a71bbd03663", null ],
-    [ "leTouchState", "legato__input_8h.html#a4a4755a2ca3f40b6835c5a8e8d09196a", null ],
+    [ "leInputState", "structleInputState.html", "structleInputState" ],
+    [ "NUM_BUTTONS", "legato__input_8h.html#a45add6b39f5b0c0137de978b90e26b5d", null ],
+    [ "NUM_KEYS", "legato__input_8h.html#a9a8c7403a867e0c9543467ee8754050d", null ],
+    [ "leGestureID", "legato__input_8h.html#a1b7d81a8a837b4debb08ae067e41ce62", null ],
+    [ "leInputState", "legato__input_8h.html#a8163aefc3494087bbdb1c42893bcebc2", null ],
+    [ "leKey", "legato__input_8h.html#a479d83f05d9c2f2c749ae537f7c09492", null ],
+    [ "leMouseButton", "legato__input_8h.html#afe80d1c5ed0ecd4c02d5982f73e0e695", null ],
+    [ "leTouchState", "legato__input_8h.html#aa90a5c3cd7c39a62bd336c838618cdb4", null ],
     [ "leGestureID", "legato__input_8h.html#ad52fd60cb83e0a12d5e760c692f0e0ce", [
       [ "LE_GESTURE_NONE", "legato__input_8h.html#ad52fd60cb83e0a12d5e760c692f0e0cea9915b1e1c40b35291aae693882c1a7b0", null ]
     ] ],

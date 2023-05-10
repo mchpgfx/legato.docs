@@ -1,0 +1,10 @@
+digraph "leUtils_GetNextHighestWidget"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="leUtils_GetNextHighestWidget",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="leUtils_ArrangeRectangle\lRelative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__utils_8h.html#a78acf9fdd2b18d98a3b4b2c2fad1d2fa",tooltip="Calculates the position of a rectangle within the given bounds. "];
+}

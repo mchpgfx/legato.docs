@@ -1,6 +1,7 @@
 var legato__pixelbuffer_8h =
 [
-    [ "lePixelBuffer", "structlePixelBuffer.html", null ],
+    [ "lePixelBuffer", "structlePixelBuffer.html", "structlePixelBuffer" ],
+    [ "lePixelBuffer", "legato__pixelbuffer_8h.html#a11c17f1c2de184316d6b4c53d6fe7fbe", null ],
     [ "BufferFlags", "legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f", [
       [ "BF_NONE", "legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712fa56bcbe6f723de8f81d35d38964aab421", null ]
     ] ],
@@ -9,6 +10,7 @@ var legato__pixelbuffer_8h =
     [ "lePixelBufferAreaFill", "legato__pixelbuffer_8h.html#a666b812a85cb22f1174e9d75eaeef8ea", null ],
     [ "lePixelBufferAreaFill_Unsafe", "legato__pixelbuffer_8h.html#aaff69dcee69706cd40f85e6010986036", null ],
     [ "lePixelBufferClipRect", "legato__pixelbuffer_8h.html#a7a2124becfd4efc3ff059e4e784cb85f", null ],
+    [ "lePixelBufferCopy", "legato__pixelbuffer_8h.html#aefd233c11e612a6410c251fd529df95e", null ],
     [ "lePixelBufferCreate", "legato__pixelbuffer_8h.html#a53c7632fce2b98221c5140a6f00334bf", null ],
     [ "lePixelBufferGet", "legato__pixelbuffer_8h.html#a8e99e8197326458e1111923d77035530", null ],
     [ "lePixelBufferGet_Unsafe", "legato__pixelbuffer_8h.html#af63ae8ca48e5e5b0b38ada5f66575e41", null ],

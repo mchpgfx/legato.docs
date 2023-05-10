@@ -1,16 +1,14 @@
 digraph "gfxIOCTLArg_Value"
 {
  // INTERACTIVE_SVG=YES
- // LATEX_PDF_SIZE
-  bgcolor="transparent";
-  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
-  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
-  Node1 [label="gfxIOCTLArg_Value",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This struct represents a standard IOCTL value argument."];
-  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" v_pointer" ];
-  Node2 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" v_pbuffer" ];
-  Node3 [label="gfxPixelBuffer",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structgfxPixelBuffer.html",tooltip="This struct represents a pixel buffer."];
-  Node4 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" size" ];
-  Node4 [label="gfxSize",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structgfxSize.html",tooltip="This struct represents a size."];
-  Node2 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" pixels" ];
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="gfxIOCTLArg_Value",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" v_pbuffer" ,fontname="Helvetica"];
+  Node2 [label="gfxPixelBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgfxPixelBuffer.html",tooltip="This struct represents a pixel buffer. "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" size" ,fontname="Helvetica"];
+  Node3 [label="gfxSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgfxSize.html",tooltip="This struct represents a size. "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pixels" ,fontname="Helvetica"];
+  Node4 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" v_pointer" ,fontname="Helvetica"];
 }

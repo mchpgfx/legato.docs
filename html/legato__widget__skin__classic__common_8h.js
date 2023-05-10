@@ -20,5 +20,6 @@ var legato__widget__skin__classic__common_8h =
     [ "leWidget_SkinClassic_DrawStandardRaisedBorder", "legato__widget__skin__classic__common_8h.html#aebafa1f0cc9f2865a0f472f686706da5", null ],
     [ "leWidget_SkinClassic_DrawStandardRoundCornerLineBorder", "legato__widget__skin__classic__common_8h.html#aeac272c6398181fcf4fba1773d82c308", null ],
     [ "leWidget_SkinClassic_FillRect", "legato__widget__skin__classic__common_8h.html#afbef877142fd93dbb19ede6ba2f69031", null ],
+    [ "leWidget_SkinClassic_FillRoundCornerRect", "legato__widget__skin__classic__common_8h.html#a2a7caae9761a9b6158a080297569a082", null ],
     [ "leWidget_SkinClassic_InvalidateBorderAreas", "legato__widget__skin__classic__common_8h.html#ad1447b1e73fcc85a4638d3dd19884153", null ]
 ];

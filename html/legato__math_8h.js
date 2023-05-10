@@ -1,7 +1,8 @@
 var legato__math_8h =
 [
-    [ "leArcQuadrantQuery", "structleArcQuadrantQuery.html", null ],
-    [ "leResolvedAngleRanges", "structleResolvedAngleRanges.html", null ],
+    [ "leArcQuadrantQuery", "structleArcQuadrantQuery.html", "structleArcQuadrantQuery" ],
+    [ "leResolvedAngleRanges", "structleResolvedAngleRanges.html", "structleResolvedAngleRanges" ],
+    [ "leResolvedAngleRanges", "legato__math_8h.html#a0d58a03929bb18f1f57b5c2c13d1524a", null ],
     [ "LE_QUADRANT", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722", [
       [ "LE_Q1", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722ad65b1455871ab1cd9d0655696d927c01", null ],
       [ "LE_Q2", "legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722a969983120a0e3978c1006ada393cffda", null ],
@@ -21,6 +22,7 @@ var legato__math_8h =
     [ "leClampf", "legato__math_8h.html#ac4b893d6ea1017245a89513ab4b2c899", null ],
     [ "leClampi", "legato__math_8h.html#affae9f4108ffcaa4874007c797638977", null ],
     [ "leCos", "legato__math_8h.html#a185107bf2b3ccd75aa0255f392ac8bd6", null ],
+    [ "leDegreesFromPercent", "legato__math_8h.html#a21234611bfb911c2d613d867aac42af2", null ],
     [ "leDivideRounding", "legato__math_8h.html#a8a9b9a044c032787d90b0d3253f858a8", null ],
     [ "leEllipsePoint", "legato__math_8h.html#aaa3b40599a8d548b4e604434e32abf47", null ],
     [ "leGetXGivenYOnLine", "legato__math_8h.html#af81c0b9353940dabb486d0f6b85021fd", null ],
@@ -31,16 +33,23 @@ var legato__math_8h =
     [ "leMinf", "legato__math_8h.html#ae4827d4d0353e7be64485df8d3add2cf", null ],
     [ "leMini", "legato__math_8h.html#a95b7ddc3938ddbfb90bc1a99268c2c8e", null ],
     [ "leNormalizeAngle", "legato__math_8h.html#a1c7998e4045fa9bac4f1255392835314", null ],
+    [ "leNormalizeAngles", "legato__math_8h.html#ad8583f59e0157c0cfcb41ea0b64a045d", null ],
     [ "lePercent", "legato__math_8h.html#a30dd455230a479c1d82d47a22a6d175e", null ],
+    [ "lePercentFromDegrees", "legato__math_8h.html#a2e2eedd91c89e205f0fc4b6080ece5ee", null ],
     [ "lePercentOf", "legato__math_8h.html#ae238ed9879981ecead3774ac347b1e38", null ],
     [ "lePercentOfDec", "legato__math_8h.html#ad746ae84ec4e88a4aaa543ddb6a11fda", null ],
     [ "lePercentWholeRounded", "legato__math_8h.html#a625def1d81005b780146a76bca77ee43", null ],
+    [ "lePointOnCircle", "legato__math_8h.html#adaf82922f951e69f24e1d2dcae6b30cd", null ],
+    [ "lePointOnLineSide", "legato__math_8h.html#a1ecaafd5c52b0682c797454b5df12bd9", null ],
     [ "lePolarToXY", "legato__math_8h.html#a1c17d8c4a68495b34232e3d0c006c980", null ],
+    [ "leResolveAngles", "legato__math_8h.html#a376914657bb9e1b7ca9ec24b14bd928e", null ],
     [ "leRotatedRectBounds", "legato__math_8h.html#a2b7886da5819285631f560dd10defab0", null ],
     [ "leRotatePoint", "legato__math_8h.html#a0d6da6ad7415902510b9a6c9e7bfd50d", null ],
+    [ "leRound", "legato__math_8h.html#a586ff0fd2762261bb9eab4cbf56290d8", null ],
     [ "leScaleInteger", "legato__math_8h.html#acdca4b32bf211677dd6fb8adf815c1c2", null ],
     [ "leScaleIntegerSigned", "legato__math_8h.html#a6c5eb17cbbd38fae315bb5bad5a89167", null ],
     [ "leSin", "legato__math_8h.html#aeada039714dd8ec67eb162207c0219f1", null ],
     [ "leSortPointsX", "legato__math_8h.html#abaceb63d086f56f5b7a73a7c1fade169", null ],
-    [ "leSortPointsY", "legato__math_8h.html#a94c3e343d61512d000c0c26e427cb136", null ]
+    [ "leSortPointsY", "legato__math_8h.html#a94c3e343d61512d000c0c26e427cb136", null ],
+    [ "leSqrt", "legato__math_8h.html#a5ca56a9a731c599c566c7c0b402e4131", null ]
 ];

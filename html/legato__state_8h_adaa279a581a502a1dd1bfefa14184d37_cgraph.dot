@@ -1,12 +1,10 @@
 digraph "leRedrawAll"
 {
  // INTERACTIVE_SVG=YES
- // LATEX_PDF_SIZE
-  bgcolor="transparent";
-  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
-  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="leRedrawAll",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Redraw All."];
-  Node1 -> Node2 [color="steelblue1",style="solid"];
-  Node2 [label="invalidate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__string_8h.html#aab4349d593d33adb518e6cc0024f3625",tooltip="Invalidate."];
+  Node51 [label="leRedrawAll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="leList_Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277",tooltip="Get a value from the list. "];
 }

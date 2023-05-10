@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['widget_0',['widget',['../structleArcWidget.html#a027495769f792361c0c98ade93715ded',1,'leArcWidget']]],
-  ['widgetdefault_1',['WidgetDefault',['../classwidget_1_1WidgetDefault.html',1,'widget']]],
-  ['widgetids_2',['widgetIDs',['../structleState.html#af8827ef05e7eb5d954be7a53a297fe47',1,'leState']]],
-  ['width_3',['width',['../structn2d__buffer.html#a5a61e0d2806d2ec5b092ee156f957b4a',1,'n2d_buffer::width()'],['../structn2d__rectangle.html#a5a61e0d2806d2ec5b092ee156f957b4a',1,'n2d_rectangle::width()'],['../structgpu__buffer.html#a325272ddd9a962f05deb905101d25cbd',1,'gpu_buffer::width()'],['../structgpu__rectangle.html#a325272ddd9a962f05deb905101d25cbd',1,'gpu_rectangle::width()'],['../structleSize.html#a395d15e7c2b09961c1bfd1da6179b64c',1,'leSize::width()']]]
+  ['x',['x',['../structn2d__point.html#a7138259511e134ba5eec9a2f4d8acfeb',1,'n2d_point::x()'],['../structn2d__rectangle.html#a7138259511e134ba5eec9a2f4d8acfeb',1,'n2d_rectangle::x()'],['../structgpu__rectangle.html#aae8a40a17c0be29c1f06ca6b4f9e2235',1,'gpu_rectangle::x()'],['../structleTouchState.html#af6d3062751bd565decb1a2cd3b63bdb2',1,'leTouchState::x()']]]
 ];

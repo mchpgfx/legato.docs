@@ -1,12 +1,12 @@
 var legato__array_8h =
 [
     [ "leArray", "structleArray.html", "structleArray" ],
-    [ "leArray", "legato__array_8h.html#a7e9510cc797da80edb275a07ae1c9079", null ],
+    [ "leArray", "legato__array_8h.html#a7735ba94bc6176bcb9efce4233e03c2b", null ],
     [ "leArray_Clear", "legato__array_8h.html#a0300beee6ee7b79357570ecb4c83b89c", null ],
     [ "leArray_Copy", "legato__array_8h.html#acbbe7fa5794aba58384a2f707c5c2338", null ],
     [ "leArray_Create", "legato__array_8h.html#aef4da7e98fce2c4494689c87a9e636db", null ],
     [ "leArray_Find", "legato__array_8h.html#a0ee4fb0056c8e95dd38ce68d33cf848b", null ],
-    [ "leArray_Get", "legato__array_8h.html#a4dc150f726ea09400215d0de5408f4a8", null ],
+    [ "leArray_Get", "legato__array_8h.html#aedb731b582ce445bee6a70797a789942", null ],
     [ "leArray_InsertAt", "legato__array_8h.html#a7b4e1d95eadb27b3939444a4e2afac44", null ],
     [ "leArray_PopBack", "legato__array_8h.html#a07add7957e9490630314cb84a0a338c4", null ],
     [ "leArray_PopFront", "legato__array_8h.html#a32f8e91aacf7e755380e0963d9834e4c", null ],

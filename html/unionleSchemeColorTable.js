@@ -4,7 +4,7 @@ var unionleSchemeColorTable =
     [ "backgroundDisabled", "unionleSchemeColorTable.html#ac4283703795f83d954382478d63dedd8", null ],
     [ "backgroundInactive", "unionleSchemeColorTable.html#af624d95796e30a5b95354293f09eeb66", null ],
     [ "base", "unionleSchemeColorTable.html#ab2d6e50db72723b568a3a025862bb483", null ],
-    [ "colors", "unionleSchemeColorTable.html#af541035210978fe6de01a740ad1788cf", null ],
+    [ "colors", "unionleSchemeColorTable.html#a8f588e67276864eb01c4fc990570e25d", null ],
     [ "foreground", "unionleSchemeColorTable.html#a3545c21d27115ef2e5cd6261e7527605", null ],
     [ "foregroundDisabled", "unionleSchemeColorTable.html#a1b1e290951432cdbad26f27be7b2f66f", null ],
     [ "foregroundInactive", "unionleSchemeColorTable.html#af78d593fd60a09bf5cdf3059fe4573c9", null ],

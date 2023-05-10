@@ -1,0 +1,12 @@
+digraph "leRectContainsRect"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="leRectContainsRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="leUtils_ArrangeRectangle\lRelative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__utils_8h.html#a78acf9fdd2b18d98a3b4b2c2fad1d2fa",tooltip="Calculates the position of a rectangle within the given bounds. "];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="leRectArray_RemoveOverlapping",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__rectarray_8h.html#ad855ee6cb3cd4de0bef81ef04058fded",tooltip="Remove overlappping rectangles. "];
+}

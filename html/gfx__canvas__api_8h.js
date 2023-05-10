@@ -18,6 +18,10 @@ var gfx__canvas__api_8h =
       [ "GFXC_FX_FADE", "gfx__canvas__api_8h.html#ab0fc941404cb8e0f1a71fa1d5fb56824a170e2a54722e6f6a817b8a36bd55e211", null ],
       [ "GFXC_FX_MOVE", "gfx__canvas__api_8h.html#ab0fc941404cb8e0f1a71fa1d5fb56824a2323f8375db7779d99793da90202f3cc", null ]
     ] ],
+    [ "GFXC_STATUS", "gfx__canvas__api_8h.html#a3bb20abad83c18cb05cbe6e19c48fa30", [
+      [ "GFXC_STAT_IDLE", "gfx__canvas__api_8h.html#a3bb20abad83c18cb05cbe6e19c48fa30a0716a9f19e31e046193c04ec31f2929a", null ],
+      [ "GFXC_STAT_BUSY", "gfx__canvas__api_8h.html#a3bb20abad83c18cb05cbe6e19c48fa30ac685ba6f528ff556d473cdcceec8b038", null ]
+    ] ],
     [ "GFX_CANVAS_Initialize", "gfx__canvas__api_8h.html#aedbd82d98b5be9315e520fd1a9c7d02b", null ],
     [ "GFX_CANVAS_Task", "gfx__canvas__api_8h.html#ae187a293826c2b0e57903e3dc5b1fca2", null ],
     [ "gfxcCanvasUpdate", "gfx__canvas__api_8h.html#a38eb98f135819d707a76d876feb234b3", null ],
@@ -26,6 +30,9 @@ var gfx__canvas__api_8h =
     [ "gfxcCreate", "gfx__canvas__api_8h.html#a74cedc556beba6e320cda43806741609", null ],
     [ "gfxcDestroy", "gfx__canvas__api_8h.html#a2263e569b9099ac6d599b1a57821f29d", null ],
     [ "gfxcGetlayer", "gfx__canvas__api_8h.html#a571e4eeed53dca3c06bcb451b5e04399", null ],
+    [ "gfxcGetStatus", "gfx__canvas__api_8h.html#a30bbd674057721d16b4dadbddaa58f68", null ],
+    [ "gfxcGetWindowPosition", "gfx__canvas__api_8h.html#a0facfbfec8825883cfae3c38cb6660a9", null ],
+    [ "gfxcGetWindowSize", "gfx__canvas__api_8h.html#a8aecea4bd52e54bd423f138372903308", null ],
     [ "gfxcHideCanvas", "gfx__canvas__api_8h.html#a9b5065f60a37878a894c21b92d8b13c4", null ],
     [ "gfxcSetBaseCanvasID", "gfx__canvas__api_8h.html#acf8e3fcfd32eb14e169ffc246032e14f", null ],
     [ "gfxcSetEffectsCallback", "gfx__canvas__api_8h.html#a0acc6cc3a140e0cd58f9394527242307", null ],

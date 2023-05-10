@@ -1,13 +1,16 @@
 var legato__image_8h =
 [
-    [ "leImageMap", "structleImageMap.html", null ],
-    [ "leImage", "structleImage.html", null ],
-    [ "leImageDecoder", "structleImageDecoder.html", null ],
-    [ "leImageDecoder", "legato__image_8h.html#a30aa0386ed1f3b6c9971992e6f9624be", null ],
-    [ "leImageFilterMode", "legato__image_8h.html#af29b6ce5ab70168560c89d7d5398ffe4", null ],
-    [ "leImageFlags", "legato__image_8h.html#abfaa088ea7c6ea1f7ebe844e8d6f4995", null ],
-    [ "leImageFormat", "legato__image_8h.html#ae0e74953750b90b5d1ee2a36bb48366c", null ],
-    [ "leImageMap", "legato__image_8h.html#af512f785591eeafb5b6c6d6132cf36ed", null ],
+    [ "leImageMap", "structleImageMap.html", "structleImageMap" ],
+    [ "leImage", "structleImage.html", "structleImage" ],
+    [ "leImageDecoder", "structleImageDecoder.html", "structleImageDecoder" ],
+    [ "LE_IMAGE_FORMAT_COUNT", "legato__image_8h.html#a7f4fe6ab0aedd99bb5930fc0e8c5642f", null ],
+    [ "leImage", "legato__image_8h.html#ae86b77882b5c7b39307d29242233cedc", null ],
+    [ "leImageDecoder", "legato__image_8h.html#a583710ab3d22ead83c6708123745bcea", null ],
+    [ "leImageFilterMode", "legato__image_8h.html#aaf87bcee887b0f7fd82d554d120fc139", null ],
+    [ "leImageFlags", "legato__image_8h.html#aff496640f0dea60e8f81a0044c21740c", null ],
+    [ "leImageFormat", "legato__image_8h.html#a9ebafc05ca35f1b19164ca44e1705360", null ],
+    [ "leImageMap", "legato__image_8h.html#ac8a01b2e71c3a8083f1a2c7a573c3f8b", null ],
+    [ "lePalette", "legato__image_8h.html#aabc4899f15ecf28b4e7c6d17551e6d5a", null ],
     [ "leImageFilterMode", "legato__image_8h.html#a6fd98714a57eca9abd0b09e2e754e0ee", [
       [ "LE_IMAGEFILTER_NONE", "legato__image_8h.html#a6fd98714a57eca9abd0b09e2e754e0eea4cfa4e42971ca687a2e0bcab6e8721ed", null ],
       [ "LE_IMAGEFILTER_NEAREST_NEIGHBOR", "legato__image_8h.html#a6fd98714a57eca9abd0b09e2e754e0eea93448372d26812abae739cbdd7caa412", null ],
@@ -27,7 +30,7 @@ var legato__image_8h =
       [ "LE_IMAGE_FORMAT_PNG", "legato__image_8h.html#a49ff622e48f89d84fea6c470f2be584eaeb1e57d2af98326d0f8627ef411445ab", null ],
       [ "LE_IMAGE_FORMAT_MONO", "legato__image_8h.html#a49ff622e48f89d84fea6c470f2be584ea16f98a90a0a6181df11d33961a6150a1", null ]
     ] ],
-    [ "leImage_Allocate", "legato__image_8h.html#ae1288863a0248a67167d4ae854aa61b4", null ],
+    [ "leImage_Allocate", "legato__image_8h.html#ae65b647dadad8435ed2070a9bee0a8e5", null ],
     [ "leImage_Copy", "legato__image_8h.html#aa24b22b3362a7bcd92df4f292f42c235", null ],
     [ "leImage_Create", "legato__image_8h.html#a34b3c0499129bef657b9e7e4ed161977", null ],
     [ "leImage_Draw", "legato__image_8h.html#a7411e4b8fd455fee0a56a9122afcc811", null ],

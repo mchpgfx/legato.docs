@@ -1,23 +1,21 @@
 digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/image/legato_image.h"
 {
  // INTERACTIVE_SVG=YES
- // LATEX_PDF_SIZE
-  bgcolor="transparent";
-  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
-  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
-  Node1 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/legato_image.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Image functions and defintions."];
-  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/jpeg/legato_imagedecoder_jpeg.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__imagedecoder__jpeg_8h_source.html",tooltip=" "];
-  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/legato_image_utils.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__image__utils_8h.html",tooltip="Image return utilities."];
-  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/mono/legato_imagedecoder_mono.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__imagedecoder__mono_8h_source.html",tooltip=" "];
-  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
-  Node5 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/png/legato_imagedecoder_png.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__imagedecoder__png_8h_source.html",tooltip=" "];
-  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/png/lodepng.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$lodepng_8h_source.html",tooltip=" "];
-  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/raw/legato_imagedecoder_raw.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw_8h_source.html",tooltip=" "];
-  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/legato.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$legato_8h.html",tooltip="The header file joins all header files used in the graphics object library."];
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node10 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/legato_image.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/jpeg/legato_imagedecoder_jpeg.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__jpeg_8h_source.html"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/legato_image_utils.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__image__utils_8h.html",tooltip="Image return utilities. "];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/mono/legato_imagedecoder_mono.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__mono_8h_source.html"];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/png/legato_imagedecoder_png.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__png_8h_source.html"];
+  Node10 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/png/lodepng.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lodepng_8h_source.html"];
+  Node10 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/image/raw/legato_imagedecoder_raw.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw_8h_source.html"];
+  Node10 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="C:/microchip/harmony3\l/gfx/middleware/legato\l/library/src/gfx/legato\l/legato.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato_8h.html",tooltip="The header file joins all header files used in the graphics object library. "];
 }

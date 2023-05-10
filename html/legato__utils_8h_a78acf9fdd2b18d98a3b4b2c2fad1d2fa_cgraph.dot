@@ -1,0 +1,25 @@
+digraph "leUtils_ArrangeRectangleRelative"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="leUtils_ArrangeRectangle\lRelative",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leArray_Find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__array_8h.html#a0ee4fb0056c8e95dd38ce68d33cf848b",tooltip="Find a first index of value. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="leRectContainsRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__rect_8h.html#ab6d15071824a10441f7d84399b20c275",tooltip="Determines if a rectangle is completely inside another rectangle. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leList_Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#a70d9e63884619a81f8324f547b7b7885",tooltip="Create a new list. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leList_Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#ad6007296b206300aa7f0778145f4cc88",tooltip="Copy list. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="leList_Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#ad870505edc19b8ce4ac0a89c1417e658",tooltip="Clear array. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="leList_Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277",tooltip="Get a value from the list. "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="leList_PushBack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#a57dc79d0be5fb1f539188fa72417b5a3",tooltip="Push value on back. "];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="leUtils_GetNextHighestWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__utils_8h.html#aa467fab76bac89abd0fa020f59b7b8fb",tooltip="Get next highest Z order widget in the tree from &#39;wgt&#39;. "];
+}

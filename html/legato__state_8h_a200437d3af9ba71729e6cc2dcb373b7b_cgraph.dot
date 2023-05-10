@@ -1,0 +1,12 @@
+digraph "leShutdown"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node76 [label="leShutdown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node76 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="leList_Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277",tooltip="Get a value from the list. "];
+  Node76 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="leList_PopFront",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__list_8h.html#ac0b2646accca78c90cbc0004e707b483",tooltip="Pop value from front. "];
+}

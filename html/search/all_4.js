@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['capacity_0',['capacity',['../structleArray.html#a391c992c66c3e5540265a85ec2b9216a',1,'leArray::capacity()'],['../structleRectArray.html#a391c992c66c3e5540265a85ec2b9216a',1,'leRectArray::capacity()'],['../structleDynamicString.html#a6be948a502bdacee3d2a2cc1d2f97ece',1,'leDynamicString::capacity()'],['../structleFixedString.html#a6be948a502bdacee3d2a2cc1d2f97ece',1,'leFixedString::capacity()']]],
-  ['centerangle_1',['centerAngle',['../structleArcWidget.html#a3ba7a21e4d35f51a1fcb6b746f96d196',1,'leArcWidget']]],
-  ['charat_2',['charAt',['../legato__string_8h.html#aec7d58a2e4f2cd0fed851685ab103370',1,'legato_string.h']]],
-  ['clear_3',['clear',['../legato__string_8h.html#acba8eef61054183ec3899f526a3a68ec',1,'legato_string.h']]],
-  ['colorcount_4',['colorCount',['../structlePalette.html#aa7814662d841c9730df86e132fe48a77',1,'lePalette']]],
-  ['colormode_5',['colorMode',['../structlePalette.html#abc94789c79a0808aa63cf3bdbc57397b',1,'lePalette']]],
-  ['compare_6',['compare',['../legato__string_8h.html#a9a0884614b95218aeeba25a9a5d9db33',1,'legato_string.h']]],
-  ['contiguousbase_7',['contiguousBase',['../structn2d__module__parameters.html#afccfca9a91d864e90472d974ad07a2c1',1,'n2d_module_parameters']]],
-  ['contiguoussize_8',['contiguousSize',['../structn2d__module__parameters.html#ac527a42d6e9d67072c7675f0707ebbad',1,'n2d_module_parameters']]]
+  ['data',['data',['../structleBlendLookupTable.html#a0d49d74db4c035719c3867723cf7e779',1,'leBlendLookupTable::data()'],['../structleDynamicString.html#a0b86f0c5d54b9c6c43f16f64da0cdbf1',1,'leDynamicString::data()'],['../structleFixedString.html#a0b86f0c5d54b9c6c43f16f64da0cdbf1',1,'leFixedString::data()']]],
+  ['defaultscheme',['defaultScheme',['../structleState.html#a3a960e8f4ab65fdde97532d6ebdb665d',1,'leState']]],
+  ['destructor',['destructor',['../legato__string_8h.html#a2bd88ae3167a95ab656259ba3d47044d',1,'legato_string.h']]],
+  ['drv_5fgfx_5fdisp_5fintf_2eh',['drv_gfx_disp_intf.h',['../drv__gfx__disp__intf_8h.html',1,'']]],
+  ['drv_5fgfx_5flcc_2eh_2eftl',['drv_gfx_lcc.h.ftl',['../drv__gfx__lcc_8h_8ftl.html',1,'']]],
+  ['drv_5flcc_5fblitbuffer',['DRV_LCC_BlitBuffer',['../drv__gfx__lcc_8h_8ftl.html#a911b520bcacbfd5bc0a04048ae2ef848',1,'drv_gfx_lcc.c.ftl']]],
+  ['drv_5flcc_5finitialize',['DRV_LCC_Initialize',['../drv__gfx__lcc_8h_8ftl.html#a185feb0e9b58a6dc1dc771ad19e8015d',1,'drv_gfx_lcc.c.ftl']]],
+  ['drv_5flcc_5fioctl',['DRV_LCC_IOCTL',['../drv__gfx__lcc_8h_8ftl.html#a9976df974d3202b4364804e7e909f39b',1,'drv_gfx_lcc.c.ftl']]],
+  ['drv_5flcc_5fupdate',['DRV_LCC_Update',['../drv__gfx__lcc_8h_8ftl.html#a42b5595f79c964a6cf12b30ec865bd34',1,'drv_gfx_lcc.c.ftl']]]
 ];

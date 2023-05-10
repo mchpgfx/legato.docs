@@ -1,36 +1,8 @@
-/*
- @licstart  The following is the entire license notice for the JavaScript code in this file.
-
- The MIT License (MIT)
-
- Copyright (C) 1997-2020 by Dimitri van Heesch
-
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software
- and associated documentation files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify, merge, publish, distribute,
- sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
-
- The above copyright notice and this permission notice shall be included in all copies or
- substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
- @licend  The above is the entire license notice for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "MPLAB® Harmony Graphics Suite", "index.html", [
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -40,8 +12,8 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
@@ -57,12 +29,15 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"globals.html",
-"legato__image_8h.html#a49ff622e48f89d84fea6c470f2be584eaeb1e57d2af98326d0f8627ef411445ab",
-"legato__rect_8h.html#ab6d15071824a10441f7d84399b20c275",
-"legato__widget_8h.html#abf82ae790528207efacc789381645b99",
-"structleString.html"
+".html",
+"gfx__driver_8h_8ftl.html#a243554b342ac5ede1bd826b842337a11a64ea140a713c0163181157559a527ee0",
+"legato__color_8h.html#a894fc54155a6496e4c129b61a9c21666",
+"legato__input_8h.html#a4bd3caaf03875fa769c70a01129fa4b9",
+"legato__renderer_8h.html",
+"legato__widget_8h.html#a0cdd28606b9b77230c25905b1af68afba9ad598c9dc82b5ee4163d5390cc60014",
+"plib__glcd_8h.html#a5e5883c87ee32f4f9de6bdb472c31e90",
+"structgfxPoint.html#af6d3062751bd565decb1a2cd3b63bdb2",
+"structleRenderLayerState.html#aa843ba61d106ee2bd7f3a7852affff4a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

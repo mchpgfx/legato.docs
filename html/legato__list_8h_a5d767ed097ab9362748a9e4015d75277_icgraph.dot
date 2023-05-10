@@ -1,0 +1,18 @@
+digraph "leList_Get"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="leList_Get",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="leUtils_ArrangeRectangle\lRelative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__utils_8h.html#a78acf9fdd2b18d98a3b4b2c2fad1d2fa",tooltip="Calculates the position of a rectangle within the given bounds. "];
+  Node19 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="leShutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8h.html#a200437d3af9ba71729e6cc2dcb373b7b",tooltip="Shutdown Legato library. "];
+  Node19 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="leSetStringLanguage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8h.html#abe5c36a225545bec717742d2a83759d4",tooltip="Get language by index. "];
+  Node19 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="leRedrawAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8h.html#adaa279a581a502a1dd1bfefa14184d37",tooltip="Redraw All. "];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="leSetStringTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8h.html#af17f6a1aa6df4e4739f5eb4d6b18a9e9",tooltip="Set string table. "];
+}

@@ -6,5 +6,5 @@ var structgfxIOCTLArg__Value =
     [ "v_pbuffer", "structgfxIOCTLArg__Value.html#abae0e5b9afe775e9a210b808307bbb41", null ],
     [ "v_pointer", "structgfxIOCTLArg__Value.html#af8b5d1baf68550d64bd760b3419c9961", null ],
     [ "v_uint", "structgfxIOCTLArg__Value.html#a69257b711f6b86ab5ec711ee59b8cfd2", null ],
-    [ "value", "structgfxIOCTLArg__Value.html#a1b8ba292e72ebd6ea61b8655898a62a5", null ]
+    [ "value", "structgfxIOCTLArg__Value.html#a41318c50bbaa4f56169fd9410ec06710", null ]
 ];

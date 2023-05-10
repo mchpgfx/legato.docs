@@ -32,5 +32,5 @@ var dir_139e39c2cbbb9c4d4856e374ea12d038 =
     [ "window", "dir_bbe9a681524168dca2c686e8724621ab.html", "dir_bbe9a681524168dca2c686e8724621ab" ],
     [ "legato_editwidget.h", "legato__editwidget_8h.html", "legato__editwidget_8h" ],
     [ "legato_widget.h", "legato__widget_8h.html", "legato__widget_8h" ],
-    [ "legato_widget_skin_classic_common.h", "legato__widget__skin__classic__common_8h.html", null ]
+    [ "legato_widget_skin_classic_common.h", "legato__widget__skin__classic__common_8h.html", "legato__widget__skin__classic__common_8h" ]
 ];

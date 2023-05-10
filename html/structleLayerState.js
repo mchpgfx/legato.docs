@@ -1,5 +1,6 @@
 var structleLayerState =
 [
+    [ "clearMode", "structleLayerState.html#ac14e0ec495f684c40daaa95c9ce6dff2", null ],
     [ "colorMode", "structleLayerState.html#abc94789c79a0808aa63cf3bdbc57397b", null ],
     [ "driverPosition", "structleLayerState.html#ae877fd03417233f232c8bc4f3453fdc7", null ],
     [ "next", "structleLayerState.html#aeb2c6ed129d0707aba0f2a238b798e32", null ],
