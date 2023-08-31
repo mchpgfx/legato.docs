@@ -7,5 +7,5 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/widg
   dir_f43edd6e57efc632cc65bdd586691760 [shape=box, label="drawsurface", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f43edd6e57efc632cc65bdd586691760.html"];
   }
   dir_b3f224f181338695a4734ca3080f2eb5 [shape=box label="common" URL="dir_b3f224f181338695a4734ca3080f2eb5.html"];
-  dir_f43edd6e57efc632cc65bdd586691760->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="1", labeldistance=1.5 headhref="dir_000096_000076.html"];
+  dir_f43edd6e57efc632cc65bdd586691760->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="1", labeldistance=1.5 headhref="dir_000100_000080.html"];
 }

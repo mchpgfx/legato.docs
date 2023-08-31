@@ -9,13 +9,13 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/font
   dir_b3f224f181338695a4734ca3080f2eb5 [shape=box label="common" URL="dir_b3f224f181338695a4734ca3080f2eb5.html"];
   dir_18f2fdeeef31186486f6c44486de345c [shape=box label="renderer" URL="dir_18f2fdeeef31186486f6c44486de345c.html"];
   dir_6ea5fdd06250e5b2bba6c64e330e75e8 [shape=box label="core" URL="dir_6ea5fdd06250e5b2bba6c64e330e75e8.html"];
-  dir_b3f224f181338695a4734ca3080f2eb5->dir_18f2fdeeef31186486f6c44486de345c [headlabel="2", labeldistance=1.5 headhref="dir_000076_000086.html"];
-  dir_b3f224f181338695a4734ca3080f2eb5->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="1", labeldistance=1.5 headhref="dir_000076_000077.html"];
-  dir_18f2fdeeef31186486f6c44486de345c->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="13", labeldistance=1.5 headhref="dir_000086_000076.html"];
-  dir_18f2fdeeef31186486f6c44486de345c->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="3", labeldistance=1.5 headhref="dir_000086_000077.html"];
-  dir_6ea5fdd06250e5b2bba6c64e330e75e8->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="8", labeldistance=1.5 headhref="dir_000077_000076.html"];
-  dir_6ea5fdd06250e5b2bba6c64e330e75e8->dir_18f2fdeeef31186486f6c44486de345c [headlabel="3", labeldistance=1.5 headhref="dir_000077_000086.html"];
-  dir_d95dbeea804cdc145c362393af44e935->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="4", labeldistance=1.5 headhref="dir_000079_000076.html"];
-  dir_d95dbeea804cdc145c362393af44e935->dir_18f2fdeeef31186486f6c44486de345c [headlabel="2", labeldistance=1.5 headhref="dir_000079_000086.html"];
-  dir_d95dbeea804cdc145c362393af44e935->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="1", labeldistance=1.5 headhref="dir_000079_000077.html"];
+  dir_b3f224f181338695a4734ca3080f2eb5->dir_18f2fdeeef31186486f6c44486de345c [headlabel="2", labeldistance=1.5 headhref="dir_000080_000090.html"];
+  dir_b3f224f181338695a4734ca3080f2eb5->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="1", labeldistance=1.5 headhref="dir_000080_000081.html"];
+  dir_18f2fdeeef31186486f6c44486de345c->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="13", labeldistance=1.5 headhref="dir_000090_000080.html"];
+  dir_18f2fdeeef31186486f6c44486de345c->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="3", labeldistance=1.5 headhref="dir_000090_000081.html"];
+  dir_6ea5fdd06250e5b2bba6c64e330e75e8->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="8", labeldistance=1.5 headhref="dir_000081_000080.html"];
+  dir_6ea5fdd06250e5b2bba6c64e330e75e8->dir_18f2fdeeef31186486f6c44486de345c [headlabel="3", labeldistance=1.5 headhref="dir_000081_000090.html"];
+  dir_d95dbeea804cdc145c362393af44e935->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="4", labeldistance=1.5 headhref="dir_000083_000080.html"];
+  dir_d95dbeea804cdc145c362393af44e935->dir_18f2fdeeef31186486f6c44486de345c [headlabel="2", labeldistance=1.5 headhref="dir_000083_000090.html"];
+  dir_d95dbeea804cdc145c362393af44e935->dir_6ea5fdd06250e5b2bba6c64e330e75e8 [headlabel="1", labeldistance=1.5 headhref="dir_000083_000081.html"];
 }

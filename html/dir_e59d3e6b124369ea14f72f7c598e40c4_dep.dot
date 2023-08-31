@@ -8,7 +8,7 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/widg
   }
   dir_b3f224f181338695a4734ca3080f2eb5 [shape=box label="common" URL="dir_b3f224f181338695a4734ca3080f2eb5.html"];
   dir_ea796a184f8dd67c3a4a1810276d9c0a [shape=box label="arc" URL="dir_ea796a184f8dd67c3a4a1810276d9c0a.html"];
-  dir_ea796a184f8dd67c3a4a1810276d9c0a->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="5", labeldistance=1.5 headhref="dir_000089_000076.html"];
-  dir_e59d3e6b124369ea14f72f7c598e40c4->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="1", labeldistance=1.5 headhref="dir_000094_000076.html"];
-  dir_e59d3e6b124369ea14f72f7c598e40c4->dir_ea796a184f8dd67c3a4a1810276d9c0a [headlabel="1", labeldistance=1.5 headhref="dir_000094_000089.html"];
+  dir_ea796a184f8dd67c3a4a1810276d9c0a->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="5", labeldistance=1.5 headhref="dir_000093_000080.html"];
+  dir_e59d3e6b124369ea14f72f7c598e40c4->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="1", labeldistance=1.5 headhref="dir_000098_000080.html"];
+  dir_e59d3e6b124369ea14f72f7c598e40c4->dir_ea796a184f8dd67c3a4a1810276d9c0a [headlabel="1", labeldistance=1.5 headhref="dir_000098_000093.html"];
 }

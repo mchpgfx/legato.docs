@@ -8,8 +8,8 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/data
   }
   dir_b3f224f181338695a4734ca3080f2eb5 [shape=box label="common" URL="dir_b3f224f181338695a4734ca3080f2eb5.html"];
   dir_eef5553a5c7369df9ec111a9376be40e [shape=box label="memory" URL="dir_eef5553a5c7369df9ec111a9376be40e.html"];
-  dir_b3f224f181338695a4734ca3080f2eb5->dir_8372a91ac24574313a1b22eb58258e4b [headlabel="1", labeldistance=1.5 headhref="dir_000076_000078.html"];
-  dir_8372a91ac24574313a1b22eb58258e4b->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="6", labeldistance=1.5 headhref="dir_000078_000076.html"];
-  dir_8372a91ac24574313a1b22eb58258e4b->dir_eef5553a5c7369df9ec111a9376be40e [headlabel="3", labeldistance=1.5 headhref="dir_000078_000085.html"];
-  dir_eef5553a5c7369df9ec111a9376be40e->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="3", labeldistance=1.5 headhref="dir_000085_000076.html"];
+  dir_b3f224f181338695a4734ca3080f2eb5->dir_8372a91ac24574313a1b22eb58258e4b [headlabel="1", labeldistance=1.5 headhref="dir_000080_000082.html"];
+  dir_8372a91ac24574313a1b22eb58258e4b->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="6", labeldistance=1.5 headhref="dir_000082_000080.html"];
+  dir_8372a91ac24574313a1b22eb58258e4b->dir_eef5553a5c7369df9ec111a9376be40e [headlabel="3", labeldistance=1.5 headhref="dir_000082_000089.html"];
+  dir_eef5553a5c7369df9ec111a9376be40e->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="3", labeldistance=1.5 headhref="dir_000089_000080.html"];
 }

@@ -7,5 +7,5 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library/src/gfx/legato/memo
   dir_eef5553a5c7369df9ec111a9376be40e [shape=box, label="memory", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eef5553a5c7369df9ec111a9376be40e.html"];
   }
   dir_b3f224f181338695a4734ca3080f2eb5 [shape=box label="common" URL="dir_b3f224f181338695a4734ca3080f2eb5.html"];
-  dir_eef5553a5c7369df9ec111a9376be40e->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="3", labeldistance=1.5 headhref="dir_000085_000076.html"];
+  dir_eef5553a5c7369df9ec111a9376be40e->dir_b3f224f181338695a4734ca3080f2eb5 [headlabel="3", labeldistance=1.5 headhref="dir_000089_000080.html"];
 }

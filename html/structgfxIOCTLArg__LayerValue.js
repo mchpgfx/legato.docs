@@ -6,5 +6,5 @@ var structgfxIOCTLArg__LayerValue =
     [ "v_int", "structgfxIOCTLArg__LayerValue.html#a0d537c669bb8534b6ac7efacafb33f75", null ],
     [ "v_pointer", "structgfxIOCTLArg__LayerValue.html#af8b5d1baf68550d64bd760b3419c9961", null ],
     [ "v_uint", "structgfxIOCTLArg__LayerValue.html#a69257b711f6b86ab5ec711ee59b8cfd2", null ],
-    [ "value", "structgfxIOCTLArg__LayerValue.html#a9c2605b7b6bb02f93ae385d5ae055fb2", null ]
+    [ "value", "structgfxIOCTLArg__LayerValue.html#a5d5ca44e125b6006ec23a747fef35267", null ]
 ];

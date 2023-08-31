@@ -24,6 +24,8 @@ var annotated_dup =
     [ "_DRV", "struct__DRV.html", null ],
     [ "ArcDrawState", "structArcDrawState.html", "structArcDrawState" ],
     [ "ControllerName", "structControllerName.html", "structControllerName" ],
+    [ "DSI_GENERIC_HEADER", "unionDSI__GENERIC__HEADER.html", "unionDSI__GENERIC__HEADER" ],
+    [ "DSI_GENERIC_PAYLOAD", "unionDSI__GENERIC__PAYLOAD.html", "unionDSI__GENERIC__PAYLOAD" ],
     [ "GFX2D_INSTANCE_NAME", "structGFX2D__INSTANCE__NAME.html", "structGFX2D__INSTANCE__NAME" ],
     [ "GFX2D_OBJ", "structGFX2D__OBJ.html", "structGFX2D__OBJ" ],
     [ "GFX_DISP_INTF_EBI", "structGFX__DISP__INTF__EBI.html", "structGFX__DISP__INTF__EBI" ],

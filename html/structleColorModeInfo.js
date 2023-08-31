@@ -8,9 +8,9 @@ var structleColorModeInfo =
     [ "bppOrdinal", "structleColorModeInfo.html#a1f7f876b6cdab0036549c6f0b3c4187d", null ],
     [ "green", "structleColorModeInfo.html#a80d348ad378ca0edf433f68bba488fbe", null ],
     [ "green", "structleColorModeInfo.html#a90d21fa503b626c00cdc8d94863d5877", null ],
-    [ "mask", "structleColorModeInfo.html#a1072ddd95ea9337c263b2952b9c79299", null ],
+    [ "mask", "structleColorModeInfo.html#abc9549ac053c213afb71afdd226c298c", null ],
     [ "red", "structleColorModeInfo.html#a2b653f0aa4b2ac6738229ea1221c4cc5", null ],
     [ "red", "structleColorModeInfo.html#ad47d918910aaa51c73160ac85999d09c", null ],
-    [ "shift", "structleColorModeInfo.html#a1768e8057a9eff976a408197eda907f6", null ],
+    [ "shift", "structleColorModeInfo.html#a0b369d9384e74a1392c5f3a58b457ade", null ],
     [ "size", "structleColorModeInfo.html#ab2c6b258f02add8fdf4cfc7c371dd772", null ]
 ];

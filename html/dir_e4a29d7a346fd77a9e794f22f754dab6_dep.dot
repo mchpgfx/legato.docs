@@ -13,5 +13,5 @@ digraph "C:/microchip/harmony3/gfx/middleware/legato/library" {
     dir_0953c38ed338548d562490147e6a16dc [shape=box label="templates" color="black" fillcolor="white" style="filled" URL="dir_0953c38ed338548d562490147e6a16dc.html"];
   }
   }
-  dir_0953c38ed338548d562490147e6a16dc->dir_adde1508f32a4a310fdcd2f341a8443f [headlabel="1", labeldistance=1.5 headhref="dir_000119_000073.html"];
+  dir_0953c38ed338548d562490147e6a16dc->dir_adde1508f32a4a310fdcd2f341a8443f [headlabel="1", labeldistance=1.5 headhref="dir_000123_000077.html"];
 }
