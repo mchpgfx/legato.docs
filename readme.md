@@ -1,9 +1,9 @@
 ﻿---
-title: Harmony 3 Graphics Documentation Package
+title: Microchip Graphics Suite Harmony Documentation Package
 nav_order: 1
 ---
 
-# ![Microchip Technology](./docs/legato/images/mhgs.png) MPLAB® Harmony 3 Graphics Documentation Package
+# ![Microchip Graphics Suite](https://mchpgfx.github.io/legato.docs/docs/legato/images/mgs.svg) Microchip Graphics Suite Harmony Documentation Package
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
@@ -13,18 +13,19 @@ and microprocessor devices.  Refer to the following links for more information:
  - [Microchip MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide)
  - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
  - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
- - [MPLAB® Discover](https://mplab-discover.microchip.com/v1/itemtype/com.microchip.ide.project?s0=Legato)
+ - [MPLAB® Discover](https://mplab-discover.microchip.com/v2?dsl=Microchip+AND+Graphics+AND+Suite)
 
-This repository contains the MPLAB® Harmony Graphics Suite Documentation.  The
+This repository contains the Microchip Graphics Suite (MGS) Harmony Documentation.  The
 suite supports a free fast to market, graphics software development environment for Microchip MPLAB® 32-bit SAM and PIC® microprocessor devices.  Refer to
 the following graphics links for release notes, home page, training materials, framework and application help.
-Graphics application examples can be found at various [device-family specific repositories](https://microchip-mplab-harmony.github.io/gfx/apps/) and at [MPLAB® Discover](https://mplab-discover.microchip.com/v1/itemtype/com.microchip.ide.project?s0=Legato)
+
+For feature-rich, professional Microchip Graphics Suite demonstrations and demonstrations from third-party graphics libaries, refer to user guides on [Microchip Developer Help](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/mgs/dev-kits) or search for "Microchip Graphcis Suite" on [MPLAB® Discover](https://mplab-discover.microchip.com/v2?dsl=Microchip+AND+Graphics+AND+Suite).
+
+Examples for display bring-up can be found at various [device-family specific repositories](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/apps)
+ - [Release Notes](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/release_notes.md)
+ - [MPLAB® Harmony License](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/mplab_harmony_license.md)
  - [Release Notes](https://microchip-mplab-harmony.github.io/gfx/release_notes.html)
- - [MPLAB® Harmony License](https://microchip-mplab-harmony.github.io/gfx/mplab_harmony_license.html)
- - [MPLAB® Harmony 3 Graphics User Guides Wiki](https://github.com/mchpgfx/legato.docs/wiki)
- - [MPLAB® Harmony 3 Graphics API Help](https://mchpgfx.github.io/legato.docs/html/index.html)
- - [MPLAB® Harmony 3 Graphics Applications](https://microchip-mplab-harmony.github.io/gfx/apps/readme.html)
- - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/channel/UCwGbrIuty-pHCyjuVRAyP5Q)
+ - [MPLAB® Microchip Graphics Suite Harmony User Guides](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/mgs/mgs-harmony-guide/)
 
 # Features
 
@@ -47,13 +48,6 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 - Fully functional demonstrations and quick-starts to enable new development
 - Low memory and low power configurable
 - Segmented LCD Controller driver
-
-
-# Contents Summary
-
-| Folder     | Description                                  |
-|------------|----------------------------------------------|
-| html   | Legato API Reference Guide |
 
 
 ____
